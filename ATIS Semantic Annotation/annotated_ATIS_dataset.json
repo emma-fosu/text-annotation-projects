@@ -1,0 +1,3677 @@
+[
+{
+  "query": " i want to fly from boston at 838 am and arrive in denver at 1110 in the morning",
+  "id": 104,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 20,
+      "end": 26,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 30,
+      "end": 36,
+      "text": "838 am",
+      "labels": [
+        "departure_time"
+      ]
+    },
+    {
+      "start": 51,
+      "end": 57,
+      "text": "denver",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 61,
+      "end": 65,
+      "text": "1110",
+      "labels": [
+        "arrival_time"
+      ]
+    },
+    {
+      "start": 73,
+      "end": 80,
+      "text": "morning",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "ISO_TIME",
+    "IATA_CODE",
+    "ISO_TIME"
+  ],
+  "specificity": "exact",
+  "relative_time": "today",
+  "is_round_trip": "false",
+  "annotator": 1,
+  "annotation_id": 109,
+  "created_at": "2026-01-21T19:44:05.047853Z",
+  "updated_at": "2026-01-21T21:28:21.981798Z",
+  "lead_time": 620.742
+},
+{
+  "query": " what flights are available from pittsburgh to baltimore on thursday morning",
+  "id": 105,
+  "entities": [
+    {
+      "start": 33,
+      "end": 43,
+      "text": "pittsburgh",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 47,
+      "end": 56,
+      "text": "baltimore",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 60,
+      "end": 68,
+      "text": "thursday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 69,
+      "end": 76,
+      "text": "morning",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "intent": "flight_search",
+  "is_round_trip": "false",
+  "annotator": 1,
+  "annotation_id": 110,
+  "created_at": "2026-01-21T19:45:42.910475Z",
+  "updated_at": "2026-01-21T21:29:18.389702Z",
+  "lead_time": 142.342
+},
+{
+  "query": " what is the arrival time in san francisco for the 755 am flight leaving washington",
+  "id": 106,
+  "intent": "flight_schedule",
+  "entities": [
+    {
+      "start": 29,
+      "end": 42,
+      "text": "san francisco",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 51,
+      "end": 57,
+      "text": "755 am",
+      "labels": [
+        "departure_time"
+      ]
+    },
+    {
+      "start": 73,
+      "end": 83,
+      "text": "washington",
+      "labels": [
+        "from_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "ISO_TIME",
+    "IATA_CODE"
+  ],
+  "specificity": "exact",
+  "is_round_trip": "false",
+  "annotator": 1,
+  "annotation_id": 111,
+  "created_at": "2026-01-21T19:47:32.297777Z",
+  "updated_at": "2026-01-21T21:29:53.173073Z",
+  "lead_time": 135.234
+},
+{
+  "query": " cheapest airfare from tacoma to orlando",
+  "id": 107,
+  "intent": "airfare_query",
+  "entities": [
+    {
+      "start": 23,
+      "end": 29,
+      "text": "tacoma",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 33,
+      "end": 40,
+      "text": "orlando",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 112,
+  "created_at": "2026-01-21T19:50:04.903328Z",
+  "updated_at": "2026-01-21T19:50:04.903328Z",
+  "lead_time": 35.748
+},
+{
+  "query": " round trip fares from pittsburgh to philadelphia under 1000 dollars",
+  "id": 108,
+  "intent": "airfare_query",
+  "is_round_trip": "true",
+  "entities": [
+    {
+      "start": 23,
+      "end": 33,
+      "text": "pittsburgh",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 37,
+      "end": 49,
+      "text": "philadelphia",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "text": "1000",
+      "labels": [
+        "fare_amount"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "currency": "USD",
+  "annotator": 1,
+  "annotation_id": 113,
+  "created_at": "2026-01-21T19:51:38.933765Z",
+  "updated_at": "2026-01-21T21:30:20.469370Z",
+  "lead_time": 105.11800000000001
+},
+{
+  "query": " i need a flight tomorrow from columbus to minneapolis",
+  "id": 109,
+  "entities": [
+    {
+      "start": 17,
+      "end": 25,
+      "text": "tomorrow",
+      "labels": [
+        "time_period"
+      ]
+    },
+    {
+      "start": 31,
+      "end": 39,
+      "text": "columbus",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 43,
+      "end": 54,
+      "text": "minneapolis",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "intent": "flight_search",
+  "annotator": 1,
+  "annotation_id": 114,
+  "created_at": "2026-01-21T20:49:12.322098Z",
+  "updated_at": "2026-01-21T20:49:12.322098Z",
+  "lead_time": 59.932
+},
+{
+  "query": " what kind of aircraft is used on a flight from cleveland to dallas",
+  "id": 110,
+  "intent": "aircraft_query",
+  "entities": [
+    {
+      "start": 48,
+      "end": 57,
+      "text": "cleveland",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 61,
+      "end": 67,
+      "text": "dallas",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 115,
+  "created_at": "2026-01-21T20:49:46.887872Z",
+  "updated_at": "2026-01-21T20:49:46.887872Z",
+  "lead_time": 31.494
+},
+{
+  "query": " show me the flights from pittsburgh to los angeles on thursday",
+  "id": 111,
+  "entities": [
+    {
+      "start": 26,
+      "end": 36,
+      "text": "pittsburgh",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 40,
+      "end": 51,
+      "text": "los angeles",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 55,
+      "end": 63,
+      "text": "thursday",
+      "labels": [
+        "day_of_week"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "intent": "flight_search",
+  "annotator": 1,
+  "annotation_id": 116,
+  "created_at": "2026-01-21T20:52:40.969303Z",
+  "updated_at": "2026-01-21T21:31:34.733118Z",
+  "lead_time": 231.927
+},
+{
+  "query": " all flights from boston to washington",
+  "id": 112,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 18,
+      "end": 24,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 28,
+      "end": 38,
+      "text": "washington",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 117,
+  "created_at": "2026-01-21T20:53:09.224826Z",
+  "updated_at": "2026-01-21T20:53:09.224826Z",
+  "lead_time": 23.069
+},
+{
+  "query": " what kind of ground transportation is available in denver",
+  "id": 113,
+  "intent": "ground_service",
+  "entities": [
+    {
+      "start": 52,
+      "end": 58,
+      "text": "denver",
+      "labels": [
+        "city"
+      ]
+    }
+  ],
+  "normalized_value": "IATA_CODE",
+  "annotator": 1,
+  "annotation_id": 118,
+  "created_at": "2026-01-21T20:53:48.223870Z",
+  "updated_at": "2026-01-21T20:53:48.223870Z",
+  "lead_time": 34.15
+},
+{
+  "query": " show me the flights from dallas to san francisco",
+  "id": 114,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 26,
+      "end": 32,
+      "text": "dallas",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 49,
+      "text": "san francisco",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 119,
+  "created_at": "2026-01-21T20:54:09.160853Z",
+  "updated_at": "2026-01-21T20:54:09.160853Z",
+  "lead_time": 16.86
+},
+{
+  "query": " show me the flights from san diego to newark by way of houston",
+  "id": 115,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 26,
+      "end": 35,
+      "text": "san diego",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 39,
+      "end": 45,
+      "text": "newark",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 56,
+      "end": 63,
+      "text": "houston",
+      "labels": [
+        "stopover_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 120,
+  "created_at": "2026-01-21T20:58:01.810701Z",
+  "updated_at": "2026-01-21T20:58:01.810701Z",
+  "lead_time": 52.146
+},
+{
+  "query": " what is the cheapest flight from boston to bwi",
+  "id": 116,
+  "intent": "airfare_query",
+  "entities": [
+    {
+      "start": 34,
+      "end": 40,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 44,
+      "end": 47,
+      "text": "bwi",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 121,
+  "created_at": "2026-01-21T20:58:49.305496Z",
+  "updated_at": "2026-01-21T20:58:49.305496Z",
+  "lead_time": 42.17
+},
+{
+  "query": " all flights to baltimore after 6 pm",
+  "id": 117,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 16,
+      "end": 25,
+      "text": "baltimore",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 36,
+      "text": "6 pm",
+      "labels": [
+        "departure_time"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "ISO_TIME"
+  ],
+  "annotator": 1,
+  "annotation_id": 122,
+  "created_at": "2026-01-21T20:59:24.130964Z",
+  "updated_at": "2026-01-21T20:59:24.130964Z",
+  "lead_time": 29.863
+},
+{
+  "query": " show me the first class fares from boston to denver",
+  "id": 118,
+  "intent": "airfare_query",
+  "entities": [
+    {
+      "start": 13,
+      "end": 18,
+      "text": "first",
+      "labels": [
+        "fare_class"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 42,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 46,
+      "end": 52,
+      "text": "denver",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 123,
+  "created_at": "2026-01-21T21:00:48.582700Z",
+  "updated_at": "2026-01-21T21:00:48.582700Z",
+  "lead_time": 65.445
+},
+{
+  "query": " show me the ground transportation in denver",
+  "id": 119,
+  "intent": "ground_service",
+  "entities": [
+    {
+      "start": 38,
+      "end": 44,
+      "text": "denver",
+      "labels": [
+        "city"
+      ]
+    }
+  ],
+  "normalized_value": "IATA_CODE",
+  "annotator": 1,
+  "annotation_id": 124,
+  "created_at": "2026-01-21T21:04:53.355940Z",
+  "updated_at": "2026-01-21T21:04:53.355940Z",
+  "lead_time": 239.81
+},
+{
+  "query": " all flights from denver to pittsburgh leaving after 6 pm and before 7 pm",
+  "id": 120,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 18,
+      "end": 24,
+      "text": "denver",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 28,
+      "end": 38,
+      "text": "pittsburgh",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 53,
+      "end": 57,
+      "text": "6 pm",
+      "labels": [
+        "departure_time"
+      ]
+    },
+    {
+      "start": 69,
+      "end": 73,
+      "text": "7 pm",
+      "labels": [
+        "departure_time"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_TIME",
+    "ISO_TIME"
+  ],
+  "annotator": 1,
+  "annotation_id": 125,
+  "created_at": "2026-01-21T21:05:55.187273Z",
+  "updated_at": "2026-01-21T21:32:50.444823Z",
+  "lead_time": 96.426
+},
+{
+  "query": " i need information on flights for tuesday leaving baltimore for dallas dallas to boston and boston to baltimore",
+  "id": 121,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 35,
+      "end": 42,
+      "text": "tuesday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 51,
+      "end": 60,
+      "text": "baltimore",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 65,
+      "end": 71,
+      "text": "dallas",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 82,
+      "end": 88,
+      "text": "boston",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 93,
+      "end": 99,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 103,
+      "end": 112,
+      "text": "baltimore",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 72,
+      "end": 78,
+      "text": "dallas",
+      "labels": [
+        "from_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 126,
+  "created_at": "2026-01-21T21:14:07.158634Z",
+  "updated_at": "2026-01-21T21:14:07.158634Z",
+  "lead_time": 469.497
+},
+{
+  "query": " please give me the flights from boston to pittsburgh on thursday of next week",
+  "id": 122,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 33,
+      "end": 39,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 43,
+      "end": 53,
+      "text": "pittsburgh",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 65,
+      "text": "thursday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 69,
+      "end": 78,
+      "text": "next week",
+      "labels": [
+        "relative_time"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 127,
+  "created_at": "2026-01-21T21:34:52.077055Z",
+  "updated_at": "2026-01-21T21:37:10.901417Z",
+  "lead_time": 169.65300000000002
+},
+{
+  "query": " i would like to fly from denver to pittsburgh on united airlines",
+  "id": 123,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 26,
+      "end": 32,
+      "text": "denver",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 46,
+      "text": "pittsburgh",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 50,
+      "end": 65,
+      "text": "united airlines",
+      "labels": [
+        "airline_name"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 128,
+  "created_at": "2026-01-21T21:38:45.868892Z",
+  "updated_at": "2026-01-21T21:39:16.947510Z",
+  "lead_time": 97.637
+},
+{
+  "query": " show me the flights from san diego to newark",
+  "id": 124,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 26,
+      "end": 35,
+      "text": "san diego",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 39,
+      "end": 45,
+      "text": "newark",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 129,
+  "created_at": "2026-01-21T21:39:40.083840Z",
+  "updated_at": "2026-01-21T21:39:40.083840Z",
+  "lead_time": 26.984
+},
+{
+  "query": " please list all first class flights on united from denver to baltimore",
+  "id": 125,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 17,
+      "end": 22,
+      "text": "first",
+      "labels": [
+        "fare_class"
+      ]
+    },
+    {
+      "start": 40,
+      "end": 46,
+      "text": "united",
+      "labels": [
+        "airline_name"
+      ]
+    },
+    {
+      "start": 52,
+      "end": 58,
+      "text": "denver",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 62,
+      "end": 71,
+      "text": "baltimore",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 130,
+  "created_at": "2026-01-21T21:41:10.014660Z",
+  "updated_at": "2026-01-21T21:41:10.014660Z",
+  "lead_time": 86.202
+},
+{
+  "query": " what kinds of planes are used by american airlines",
+  "id": 126,
+  "intent": "aircraft_query",
+  "entities": [
+    {
+      "start": 34,
+      "end": 51,
+      "text": "american airlines",
+      "labels": [
+        "airline_name"
+      ]
+    }
+  ],
+  "normalized_value": "IATA_CODE",
+  "annotator": 1,
+  "annotation_id": 131,
+  "created_at": "2026-01-21T21:41:48.439525Z",
+  "updated_at": "2026-01-21T21:41:48.439525Z",
+  "lead_time": 21.047
+},
+{
+  "query": " i'd like to have some information on a ticket from denver to pittsburgh and atlanta",
+  "id": 127,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 52,
+      "end": 58,
+      "text": "denver",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 62,
+      "end": 72,
+      "text": "pittsburgh",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 77,
+      "end": 84,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 132,
+  "created_at": "2026-01-21T21:44:10.176103Z",
+  "updated_at": "2026-01-21T21:44:10.176103Z",
+  "lead_time": 138.029
+},
+{
+  "query": " i'd like to book a flight from atlanta to denver",
+  "id": 128,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 32,
+      "end": 39,
+      "text": "atlanta",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 43,
+      "end": 49,
+      "text": "denver",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 133,
+  "created_at": "2026-01-21T21:44:41.555931Z",
+  "updated_at": "2026-01-21T21:44:48.292449Z",
+  "lead_time": 28.907999999999998
+},
+{
+  "query": " which airline serves denver pittsburgh and atlanta",
+  "id": 129,
+  "intent": "airline_query",
+  "entities": [
+    {
+      "start": 22,
+      "end": 28,
+      "text": "denver",
+      "labels": [
+        "city"
+      ]
+    },
+    {
+      "start": 29,
+      "end": 39,
+      "text": "pittsburgh",
+      "labels": [
+        "city"
+      ]
+    },
+    {
+      "start": 44,
+      "end": 51,
+      "text": "atlanta",
+      "labels": [
+        "city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 134,
+  "created_at": "2026-01-21T21:45:26.400489Z",
+  "updated_at": "2026-01-21T21:45:26.400489Z",
+  "lead_time": 33.651
+},
+{
+  "query": " show me all flights from boston to pittsburgh on wednesday of next week which leave boston after 2 o'clock pm",
+  "id": 130,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 26,
+      "end": 32,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 46,
+      "text": "pittsburgh",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 50,
+      "end": 59,
+      "text": "wednesday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 63,
+      "end": 72,
+      "text": "next week",
+      "labels": [
+        "relative_time"
+      ]
+    },
+    {
+      "start": 98,
+      "end": 110,
+      "text": "2 o'clock pm",
+      "labels": [
+        "departure_time"
+      ]
+    },
+    {
+      "start": 85,
+      "end": 91,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 135,
+  "created_at": "2026-01-21T21:56:59.771915Z",
+  "updated_at": "2026-01-21T21:56:59.771915Z",
+  "lead_time": 683.187
+},
+{
+  "query": " atlanta ground transportation",
+  "id": 131,
+  "intent": "ground_service",
+  "entities": [
+    {
+      "start": 1,
+      "end": 8,
+      "text": "atlanta",
+      "labels": [
+        "city"
+      ]
+    }
+  ],
+  "normalized_value": "IATA_CODE",
+  "annotator": 1,
+  "annotation_id": 136,
+  "created_at": "2026-01-21T21:57:53.886173Z",
+  "updated_at": "2026-01-21T21:57:53.886173Z",
+  "lead_time": 15.887
+},
+{
+  "query": " i also need service from dallas to boston arriving by noon",
+  "id": 132,
+  "intent": "ground_service",
+  "entities": [
+    {
+      "start": 26,
+      "end": 32,
+      "text": "dallas",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 42,
+      "text": "boston",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 55,
+      "end": 59,
+      "text": "noon",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 137,
+  "created_at": "2026-01-22T00:05:54.415850Z",
+  "updated_at": "2026-01-22T00:05:54.415850Z",
+  "lead_time": 362.465
+},
+{
+  "query": " show me the cheapest round trip fare from baltimore to dallas",
+  "id": 133,
+  "intent": "airfare_query",
+  "is_round_trip": "true",
+  "entities": [
+    {
+      "start": 43,
+      "end": 52,
+      "text": "baltimore",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 56,
+      "end": 62,
+      "text": "dallas",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 138,
+  "created_at": "2026-01-22T00:10:33.225929Z",
+  "updated_at": "2026-01-22T00:10:33.225929Z",
+  "lead_time": 270.817
+},
+{
+  "query": " show me all flights from new york to milwaukee on northwest airlines departing at 720 am",
+  "id": 134,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 26,
+      "end": 34,
+      "text": "new york",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 47,
+      "text": "milwaukee",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 51,
+      "end": 69,
+      "text": "northwest airlines",
+      "labels": [
+        "airline_name"
+      ]
+    },
+    {
+      "start": 83,
+      "end": 89,
+      "text": "720 am",
+      "labels": [
+        "departure_time"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_TIME"
+  ],
+  "annotator": 1,
+  "annotation_id": 139,
+  "created_at": "2026-01-22T00:14:33.122937Z",
+  "updated_at": "2026-01-22T00:14:33.122937Z",
+  "lead_time": 232.352
+},
+{
+  "query": " flights from new york to miami",
+  "id": 135,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 14,
+      "end": 22,
+      "text": "new york",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 26,
+      "end": 31,
+      "text": "miami",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 140,
+  "created_at": "2026-01-22T00:17:10.872241Z",
+  "updated_at": "2026-01-22T00:17:10.873239Z",
+  "lead_time": 146.609
+},
+{
+  "query": " please find a flight on delta from philadelphia to san francisco and give me the flight numbers",
+  "id": 136,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 25,
+      "end": 30,
+      "text": "delta",
+      "labels": [
+        "airline_name"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "text": "philadelphia",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 52,
+      "end": 65,
+      "text": "san francisco",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 141,
+  "created_at": "2026-01-22T00:21:15.890905Z",
+  "updated_at": "2026-01-22T00:21:15.890905Z",
+  "lead_time": 239.244
+},
+{
+  "query": " i need a flight from dallas to san francisco",
+  "id": 137,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 22,
+      "end": 28,
+      "text": "dallas",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 45,
+      "text": "san francisco",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 142,
+  "created_at": "2026-01-22T00:21:57.989259Z",
+  "updated_at": "2026-01-22T00:21:57.989259Z",
+  "lead_time": 38.897
+},
+{
+  "query": " fares and flights from pittsburgh to philadelphia",
+  "id": 138,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 24,
+      "end": 34,
+      "text": "pittsburgh",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 50,
+      "text": "philadelphia",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 143,
+  "created_at": "2026-01-22T00:22:27.656246Z",
+  "updated_at": "2026-01-22T00:22:27.656246Z",
+  "lead_time": 19.195
+},
+{
+  "query": " show me the airlines with first class flights",
+  "id": 139,
+  "intent": "airline_query",
+  "entities": [
+    {
+      "start": 27,
+      "end": 32,
+      "text": "first",
+      "labels": [
+        "fare_class"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 144,
+  "created_at": "2026-01-22T00:22:54.336154Z",
+  "updated_at": "2026-01-22T00:22:54.336154Z",
+  "lead_time": 14.012
+},
+{
+  "query": " what are the flights from st. louis to burbank sunday evening",
+  "id": 140,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 27,
+      "end": 36,
+      "text": "st. louis",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 40,
+      "end": 47,
+      "text": "burbank",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 48,
+      "end": 54,
+      "text": "sunday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 55,
+      "end": 62,
+      "text": "evening",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 145,
+  "created_at": "2026-01-22T00:27:29.929229Z",
+  "updated_at": "2026-01-22T00:27:29.929229Z",
+  "lead_time": 258.281
+},
+{
+  "query": " i'd like to arrange a flight from pittsburgh to atlanta",
+  "id": 141,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 35,
+      "end": 45,
+      "text": "pittsburgh",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 146,
+  "created_at": "2026-01-22T00:28:48.897738Z",
+  "updated_at": "2026-01-22T00:28:48.897738Z",
+  "lead_time": 74.782
+},
+{
+  "query": " show flights from baltimore to san francisco between 6 pm and 8 pm on friday",
+  "id": 142,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 19,
+      "end": 28,
+      "text": "baltimore",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 45,
+      "text": "san francisco",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 71,
+      "end": 77,
+      "text": "friday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 54,
+      "end": 58,
+      "text": "6 pm",
+      "labels": [
+        "departure_time"
+      ]
+    },
+    {
+      "start": 63,
+      "end": 67,
+      "text": "8 pm",
+      "labels": [
+        "departure_time"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_TIME",
+    "ISO_TIME"
+  ],
+  "annotator": 1,
+  "annotation_id": 147,
+  "created_at": "2026-01-22T00:30:54.988850Z",
+  "updated_at": "2026-01-22T00:30:54.988850Z",
+  "lead_time": 103.814
+},
+{
+  "query": " i would like a list of round trip flights between indianapolis and orlando florida for the twenty seventh and the twenty eighth of december",
+  "id": 143,
+  "intent": "flight_search",
+  "is_round_trip": "true",
+  "entities": [
+    {
+      "start": 51,
+      "end": 63,
+      "text": "indianapolis",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 68,
+      "end": 83,
+      "text": "orlando florida",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 115,
+      "end": 140,
+      "text": "twenty eighth of december",
+      "labels": [
+        "departure_date"
+      ]
+    },
+    {
+      "start": 92,
+      "end": 106,
+      "text": "twenty seventh",
+      "labels": [
+        "departure_date"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_DATE"
+  ],
+  "annotator": 1,
+  "annotation_id": 148,
+  "created_at": "2026-01-22T09:07:54.370828Z",
+  "updated_at": "2026-01-22T09:07:54.370828Z",
+  "lead_time": 826.843
+},
+{
+  "query": " which airline has the most arrivals in atlanta",
+  "id": 144,
+  "intent": "airline_query",
+  "entities": [
+    {
+      "start": 40,
+      "end": 47,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": "IATA_CODE",
+  "annotator": 1,
+  "annotation_id": 149,
+  "created_at": "2026-01-22T09:12:55.768824Z",
+  "updated_at": "2026-01-22T09:12:55.768824Z",
+  "lead_time": 296.788
+},
+{
+  "query": " what airlines fly from new york to milwaukee to los angeles",
+  "id": 145,
+  "intent": "airline_query",
+  "entities": [
+    {
+      "start": 24,
+      "end": 32,
+      "text": "new york",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "milwaukee",
+      "labels": [
+        "stopover_city"
+      ]
+    },
+    {
+      "start": 49,
+      "end": 60,
+      "text": "los angeles",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 150,
+  "created_at": "2026-01-22T09:13:53.646642Z",
+  "updated_at": "2026-01-22T09:13:53.646642Z",
+  "lead_time": 52.936
+},
+{
+  "query": " pittsburgh to denver",
+  "id": 146,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 1,
+      "end": 11,
+      "text": "pittsburgh",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 15,
+      "end": 21,
+      "text": "denver",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 151,
+  "created_at": "2026-01-22T09:14:09.573860Z",
+  "updated_at": "2026-01-22T09:14:09.573860Z",
+  "lead_time": 12.936
+},
+{
+  "query": " which airlines serve atlanta",
+  "id": 147,
+  "intent": "airline_query",
+  "entities": [
+    {
+      "start": 22,
+      "end": 29,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": "IATA_CODE",
+  "annotator": 1,
+  "annotation_id": 152,
+  "created_at": "2026-01-22T09:14:37.563514Z",
+  "updated_at": "2026-01-22T09:14:37.563514Z",
+  "lead_time": 20.088
+},
+{
+  "query": " show me information on ground transportation for dallas",
+  "id": 148,
+  "intent": "ground_service",
+  "entities": [
+    {
+      "start": 50,
+      "end": 56,
+      "text": "dallas",
+      "labels": [
+        "city"
+      ]
+    }
+  ],
+  "normalized_value": "IATA_CODE",
+  "annotator": 1,
+  "annotation_id": 153,
+  "created_at": "2026-01-22T09:15:03.512141Z",
+  "updated_at": "2026-01-22T09:15:03.512141Z",
+  "lead_time": 18.09
+},
+{
+  "query": " what is fare code h",
+  "id": 149,
+  "intent": "airfare_query",
+  "entities": [
+    {
+      "start": 19,
+      "end": 20,
+      "text": "h",
+      "labels": [
+        "fare_code"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 154,
+  "created_at": "2026-01-22T09:17:44.913890Z",
+  "updated_at": "2026-01-22T09:17:44.913890Z",
+  "lead_time": 100.08099999999999
+},
+{
+  "query": " show me all flights from boston to dallas fort worth both direct and connecting that arrive before noon",
+  "id": 150,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 26,
+      "end": 32,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 47,
+      "text": "dallas fort",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 100,
+      "end": 104,
+      "text": "noon",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 155,
+  "created_at": "2026-01-22T09:18:54.541657Z",
+  "updated_at": "2026-01-22T09:18:54.541657Z",
+  "lead_time": 66.781
+},
+{
+  "query": " i need a flight from charlotte to newark leaving today evening",
+  "id": 151,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 22,
+      "end": 31,
+      "text": "charlotte",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 35,
+      "end": 41,
+      "text": "newark",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 50,
+      "end": 55,
+      "text": "today",
+      "labels": [
+        "relative_time"
+      ]
+    },
+    {
+      "start": 56,
+      "end": 63,
+      "text": "evening",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_DATE"
+  ],
+  "annotator": 1,
+  "annotation_id": 156,
+  "created_at": "2026-01-22T09:20:57.719886Z",
+  "updated_at": "2026-01-22T09:20:57.719886Z",
+  "lead_time": 120.172
+},
+{
+  "query": " what are the times that you have planes leaving from san francisco going to pittsburgh on july seventh",
+  "id": 152,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 54,
+      "end": 67,
+      "text": "san francisco",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 77,
+      "end": 87,
+      "text": "pittsburgh",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 91,
+      "end": 103,
+      "text": "july seventh",
+      "labels": [
+        "departure_date"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_DATE"
+  ],
+  "annotator": 1,
+  "annotation_id": 157,
+  "created_at": "2026-01-22T09:22:13.528263Z",
+  "updated_at": "2026-01-22T09:22:13.528263Z",
+  "lead_time": 68.125
+},
+{
+  "query": " flights from newark to cleveland",
+  "id": 153,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 14,
+      "end": 20,
+      "text": "newark",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 24,
+      "end": 33,
+      "text": "cleveland",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 158,
+  "created_at": "2026-01-22T09:22:40.074713Z",
+  "updated_at": "2026-01-22T09:22:40.074713Z",
+  "lead_time": 18.863
+},
+{
+  "query": " what flights go from boston to pittsburgh after 6 o'clock next tuesday",
+  "id": 154,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 22,
+      "end": 28,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 42,
+      "text": "pittsburgh",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 49,
+      "end": 58,
+      "text": "6 o'clock",
+      "labels": [
+        "departure_time"
+      ]
+    },
+    {
+      "start": 59,
+      "end": 71,
+      "text": "next tuesday",
+      "labels": [
+        "relative_time"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_TIME"
+  ],
+  "annotator": 1,
+  "annotation_id": 159,
+  "created_at": "2026-01-22T09:24:09.828554Z",
+  "updated_at": "2026-01-22T09:24:09.828554Z",
+  "lead_time": 86.528
+},
+{
+  "query": " does us air have any flights out of atlanta to denver",
+  "id": 155,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 6,
+      "end": 12,
+      "text": "us air",
+      "labels": [
+        "airline_name"
+      ]
+    },
+    {
+      "start": 37,
+      "end": 44,
+      "text": "atlanta",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 48,
+      "end": 54,
+      "text": "denver",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 160,
+  "created_at": "2026-01-22T09:25:25.721868Z",
+  "updated_at": "2026-01-22T09:25:25.721868Z",
+  "lead_time": 65.524
+},
+{
+  "query": " what is booking class c",
+  "id": 156,
+  "intent": "airfare_query",
+  "entities": [
+    {
+      "start": 23,
+      "end": 24,
+      "text": "c",
+      "labels": [
+        "fare_code"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 161,
+  "created_at": "2026-01-22T09:26:00.825612Z",
+  "updated_at": "2026-01-22T09:26:00.825612Z",
+  "lead_time": 26.102
+},
+{
+  "query": " i'd like to know the shortest trip between boston and san francisco",
+  "id": 157,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 44,
+      "end": 50,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 55,
+      "end": 68,
+      "text": "san francisco",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 162,
+  "created_at": "2026-01-22T09:26:41.326383Z",
+  "updated_at": "2026-01-22T09:26:41.326383Z",
+  "lead_time": 37.561
+},
+{
+  "query": " i would like to see information for flights from san francisco leaving after 12 pm to pittsburgh on monday",
+  "id": 158,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 50,
+      "end": 63,
+      "text": "san francisco",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 78,
+      "end": 83,
+      "text": "12 pm",
+      "labels": [
+        "departure_time"
+      ]
+    },
+    {
+      "start": 87,
+      "end": 97,
+      "text": "pittsburgh",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 101,
+      "end": 107,
+      "text": "monday",
+      "labels": [
+        "day_of_week"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "ISO_TIME",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 163,
+  "created_at": "2026-01-22T09:27:56.388208Z",
+  "updated_at": "2026-01-22T09:27:56.388208Z",
+  "lead_time": 71.795
+},
+{
+  "query": " what is the least expensive flight from denver to atlanta",
+  "id": 159,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 41,
+      "end": 47,
+      "text": "denver",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 51,
+      "end": 58,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 164,
+  "created_at": "2026-01-22T09:28:25.327838Z",
+  "updated_at": "2026-01-22T09:28:25.327838Z",
+  "lead_time": 21.13
+},
+{
+  "query": " i need to know information for flights leaving dallas on tuesday evening and returning to atlanta",
+  "id": 160,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 48,
+      "end": 54,
+      "text": "dallas",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 91,
+      "end": 98,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 58,
+      "end": 65,
+      "text": "tuesday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 66,
+      "end": 73,
+      "text": "evening",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 165,
+  "created_at": "2026-01-22T09:29:30.796549Z",
+  "updated_at": "2026-01-22T09:29:30.796549Z",
+  "lead_time": 63.461
+},
+{
+  "query": " what flight goes from denver to baltimore first class on united airlines arriving on may seventh",
+  "id": 161,
+  "entities": [
+    {
+      "start": 23,
+      "end": 29,
+      "text": "denver",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 33,
+      "end": 42,
+      "text": "baltimore",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 58,
+      "end": 73,
+      "text": "united airlines",
+      "labels": [
+        "airline_name"
+      ]
+    },
+    {
+      "start": 86,
+      "end": 97,
+      "text": "may seventh",
+      "labels": [
+        "return_date"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "intent": "flight_search",
+  "annotator": 1,
+  "annotation_id": 166,
+  "created_at": "2026-01-22T09:32:31.813856Z",
+  "updated_at": "2026-01-22T09:32:31.813856Z",
+  "lead_time": 178.364
+},
+{
+  "query": " could you please tell me the airlines that fly from toronto to san diego",
+  "id": 162,
+  "intent": "airline_query",
+  "entities": [
+    {
+      "start": 53,
+      "end": 60,
+      "text": "toronto",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 64,
+      "end": 73,
+      "text": "san diego",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 167,
+  "created_at": "2026-01-22T09:32:59.098982Z",
+  "updated_at": "2026-01-22T09:32:59.098982Z",
+  "lead_time": 20.921
+},
+{
+  "query": " what flights do you have from burbank to tacoma washington",
+  "id": 163,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 31,
+      "end": 38,
+      "text": "burbank",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 42,
+      "end": 59,
+      "text": "tacoma washington",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 168,
+  "created_at": "2026-01-22T09:33:23.444211Z",
+  "updated_at": "2026-01-22T09:33:23.444211Z",
+  "lead_time": 20.566
+},
+{
+  "query": " what is the ground transportation from philadelphia airport to the city proper",
+  "id": 164,
+  "intent": "ground_service",
+  "entities": [
+    {
+      "start": 40,
+      "end": 52,
+      "text": "philadelphia",
+      "labels": [
+        "airport"
+      ]
+    },
+    {
+      "start": 73,
+      "end": 79,
+      "text": "proper",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 169,
+  "created_at": "2026-01-22T09:34:12.969957Z",
+  "updated_at": "2026-01-22T09:34:12.969957Z",
+  "lead_time": 47.572
+},
+{
+  "query": " which airlines have first class flights today",
+  "id": 165,
+  "intent": "airline_query",
+  "entities": [
+    {
+      "start": 21,
+      "end": 26,
+      "text": "first",
+      "labels": [
+        "fare_class"
+      ]
+    },
+    {
+      "start": 41,
+      "end": 46,
+      "text": "today",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 170,
+  "created_at": "2026-01-22T09:34:57.853145Z",
+  "updated_at": "2026-01-22T09:34:57.853145Z",
+  "lead_time": 39.045
+},
+{
+  "query": " find the latest flight from san francisco to atlanta that serves a meal",
+  "id": 166,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 29,
+      "end": 42,
+      "text": "san francisco",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 46,
+      "end": 53,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 171,
+  "created_at": "2026-01-22T09:35:43.129032Z",
+  "updated_at": "2026-01-22T09:35:43.129032Z",
+  "lead_time": 40.546
+},
+{
+  "query": " i would like to make a reservation for a flight to denver from philadelphia on this coming sunday",
+  "id": 167,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 52,
+      "end": 58,
+      "text": "denver",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 64,
+      "end": 76,
+      "text": "philadelphia",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 92,
+      "end": 98,
+      "text": "sunday",
+      "labels": [
+        "day_of_week"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 172,
+  "created_at": "2026-01-22T09:40:37.003314Z",
+  "updated_at": "2026-01-22T09:40:37.003314Z",
+  "lead_time": 291.727
+},
+{
+  "query": " show me flights from boston to denver on wednesday",
+  "id": 168,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 22,
+      "end": 28,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 38,
+      "text": "denver",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 42,
+      "end": 51,
+      "text": "wednesday",
+      "labels": [
+        "day_of_week"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 173,
+  "created_at": "2026-01-22T09:41:26.716320Z",
+  "updated_at": "2026-01-22T09:41:26.716320Z",
+  "lead_time": 45.017
+},
+{
+  "query": " show me the flights from boston to baltimore",
+  "id": 169,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 26,
+      "end": 32,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "baltimore",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 174,
+  "created_at": "2026-01-22T09:41:57.402995Z",
+  "updated_at": "2026-01-22T09:41:57.402995Z",
+  "lead_time": 27.584
+},
+{
+  "query": " what does fare code q mean",
+  "id": 170,
+  "intent": "airfare_query",
+  "entities": [
+    {
+      "start": 21,
+      "end": 22,
+      "text": "q",
+      "labels": [
+        "fare_code"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 175,
+  "created_at": "2026-01-22T09:42:14.738738Z",
+  "updated_at": "2026-01-22T09:42:14.738738Z",
+  "lead_time": 14.713
+},
+{
+  "query": " please give me the flights from san francisco to washington dc",
+  "id": 171,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 33,
+      "end": 46,
+      "text": "san francisco",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 50,
+      "end": 63,
+      "text": "washington dc",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 176,
+  "created_at": "2026-01-22T09:42:47.066476Z",
+  "updated_at": "2026-01-22T09:42:47.066476Z",
+  "lead_time": 24.312
+},
+{
+  "query": " i need information from denver to pittsburgh",
+  "id": 172,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 25,
+      "end": 31,
+      "text": "denver",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 35,
+      "end": 45,
+      "text": "pittsburgh",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 177,
+  "created_at": "2026-01-22T09:43:05.040252Z",
+  "updated_at": "2026-01-22T09:43:05.040252Z",
+  "lead_time": 14.83
+},
+{
+  "query": " from seattle to salt lake city",
+  "id": 173,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 6,
+      "end": 13,
+      "text": "seattle",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 17,
+      "end": 26,
+      "text": "salt lake",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 178,
+  "created_at": "2026-01-22T09:43:25.862936Z",
+  "updated_at": "2026-01-22T09:43:25.862936Z",
+  "lead_time": 18.388
+},
+{
+  "query": " what is the earliest flight from boston to bwi that serves a snack",
+  "id": 174,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 34,
+      "end": 40,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 44,
+      "end": 47,
+      "text": "bwi",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 62,
+      "end": 67,
+      "text": "snack",
+      "labels": [
+        "meal_type"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 179,
+  "created_at": "2026-01-22T09:43:51.371987Z",
+  "updated_at": "2026-01-22T09:43:51.371987Z",
+  "lead_time": 23.159
+},
+{
+  "query": " what types of aircraft does delta fly",
+  "id": 175,
+  "intent": "aircraft_query",
+  "entities": [
+    {
+      "start": 29,
+      "end": 34,
+      "text": "delta",
+      "labels": [
+        "airline_name"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 180,
+  "created_at": "2026-01-22T09:44:16.133469Z",
+  "updated_at": "2026-01-22T09:44:16.133469Z",
+  "lead_time": 18.174
+},
+{
+  "query": " what is the cost of a round trip flight from pittsburgh to atlanta beginning on april twenty fifth and returning on may sixth",
+  "id": 176,
+  "intent": "airfare_query",
+  "is_round_trip": "true",
+  "entities": [
+    {
+      "start": 46,
+      "end": 56,
+      "text": "pittsburgh",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 60,
+      "end": 67,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 81,
+      "end": 99,
+      "text": "april twenty fifth",
+      "labels": [
+        "departure_date"
+      ]
+    },
+    {
+      "start": 117,
+      "end": 126,
+      "text": "may sixth",
+      "labels": [
+        "return_date"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_DATE",
+    "ISO_DATE"
+  ],
+  "annotator": 1,
+  "annotation_id": 181,
+  "created_at": "2026-01-22T09:46:01.687400Z",
+  "updated_at": "2026-01-22T09:46:01.687400Z",
+  "lead_time": 102.31
+},
+{
+  "query": " give me the flights leaving denver august ninth coming back to boston",
+  "id": 177,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 29,
+      "end": 35,
+      "text": "denver",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 64,
+      "end": 70,
+      "text": "boston",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "text": "august ninth",
+      "labels": [
+        "departure_date"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_DATE"
+  ],
+  "annotator": 1,
+  "annotation_id": 182,
+  "created_at": "2026-01-22T09:47:46.280175Z",
+  "updated_at": "2026-01-22T09:47:46.280175Z",
+  "lead_time": 78.365
+},
+{
+  "query": " list all the flights that fly into general mitchell international",
+  "id": 178,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 36,
+      "end": 66,
+      "text": "general mitchell international",
+      "labels": [
+        "airport"
+      ]
+    }
+  ],
+  "normalized_value": "IATA_CODE",
+  "annotator": 1,
+  "annotation_id": 183,
+  "created_at": "2026-01-22T09:48:09.254231Z",
+  "updated_at": "2026-01-22T09:48:09.254231Z",
+  "lead_time": 20.543
+},
+{
+  "query": " what flights fly from denver to san francisco on monday tuesday wednesday thursday and friday",
+  "id": 179,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 23,
+      "end": 29,
+      "text": "denver",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 33,
+      "end": 46,
+      "text": "san francisco",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 50,
+      "end": 56,
+      "text": "monday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 64,
+      "text": "tuesday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 65,
+      "end": 74,
+      "text": "wednesday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 75,
+      "end": 83,
+      "text": "thursday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 88,
+      "end": 94,
+      "text": "friday",
+      "labels": [
+        "day_of_week"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 184,
+  "created_at": "2026-01-22T09:50:14.928084Z",
+  "updated_at": "2026-01-22T09:50:14.928421Z",
+  "lead_time": 122.894
+},
+{
+  "query": " list all flights from indianapolis to seattle",
+  "id": 180,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 23,
+      "end": 35,
+      "text": "indianapolis",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 39,
+      "end": 46,
+      "text": "seattle",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 185,
+  "created_at": "2026-01-22T09:50:31.161319Z",
+  "updated_at": "2026-01-22T09:50:31.161319Z",
+  "lead_time": 13.564
+},
+{
+  "query": " in flight meal oakland to philadelphia saturday",
+  "id": 181,
+  "intent": "meal_request",
+  "entities": [
+    {
+      "start": 16,
+      "end": 23,
+      "text": "oakland",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 27,
+      "end": 39,
+      "text": "philadelphia",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "text": "saturday",
+      "labels": [
+        "day_of_week"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 186,
+  "created_at": "2026-01-22T09:52:07.550011Z",
+  "updated_at": "2026-01-22T09:52:07.550011Z",
+  "lead_time": 94.288
+},
+{
+  "query": " show me the flights on twa from atlanta in the morning",
+  "id": 182,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 33,
+      "end": 40,
+      "text": "atlanta",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 24,
+      "end": 27,
+      "text": "twa",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 48,
+      "end": 55,
+      "text": "morning",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 187,
+  "created_at": "2026-01-22T09:52:40.102660Z",
+  "updated_at": "2026-01-22T09:52:40.102660Z",
+  "lead_time": 24.147
+},
+{
+  "query": " i want to find the first flight from baltimore to boston that serves a meal",
+  "id": 183,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 38,
+      "end": 47,
+      "text": "baltimore",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 51,
+      "end": 57,
+      "text": "boston",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 188,
+  "created_at": "2026-01-22T09:53:19.888368Z",
+  "updated_at": "2026-01-22T09:53:19.888368Z",
+  "lead_time": 37.021
+},
+{
+  "query": " of all airlines which airline has the most arrivals in atlanta",
+  "id": 184,
+  "intent": "airline_query",
+  "entities": [
+    {
+      "start": 56,
+      "end": 63,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": "IATA_CODE",
+  "annotator": 1,
+  "annotation_id": 189,
+  "created_at": "2026-01-22T09:53:37.313638Z",
+  "updated_at": "2026-01-22T09:53:37.313638Z",
+  "lead_time": 14.383
+},
+{
+  "query": " display all flights from baltimore to boston on july twenty ninth",
+  "id": 185,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 26,
+      "end": 35,
+      "text": "baltimore",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 39,
+      "end": 45,
+      "text": "boston",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 49,
+      "end": 66,
+      "text": "july twenty ninth",
+      "labels": [
+        "departure_date"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_DATE"
+  ],
+  "annotator": 1,
+  "annotation_id": 190,
+  "created_at": "2026-01-22T09:54:04.744323Z",
+  "updated_at": "2026-01-22T09:54:25.445667Z",
+  "lead_time": 45.163
+},
+{
+  "query": " i want to travel from atlanta to baltimore early in the morning first flight",
+  "id": 186,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 23,
+      "end": 30,
+      "text": "atlanta",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 34,
+      "end": 43,
+      "text": "baltimore",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 64,
+      "text": "morning",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 191,
+  "created_at": "2026-01-22T09:55:15.749994Z",
+  "updated_at": "2026-01-22T09:55:25.392056Z",
+  "lead_time": 57.139
+},
+{
+  "query": " i now need a flight from san jose to houston leaving on sunday the fourth",
+  "id": 187,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 26,
+      "end": 34,
+      "text": "san jose",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 45,
+      "text": "houston",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 63,
+      "text": "sunday",
+      "labels": [
+        "day_of_week"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 192,
+  "created_at": "2026-01-22T09:56:44.893845Z",
+  "updated_at": "2026-01-22T09:56:44.893845Z",
+  "lead_time": 77.383
+},
+{
+  "query": " what are the flights available after 6 pm between san francisco and boston",
+  "id": 188,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 38,
+      "end": 42,
+      "text": "6 pm",
+      "labels": [
+        "departure_time"
+      ]
+    },
+    {
+      "start": 51,
+      "end": 64,
+      "text": "san francisco",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 69,
+      "end": 75,
+      "text": "boston",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "ISO_TIME",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 193,
+  "created_at": "2026-01-22T09:57:48.979454Z",
+  "updated_at": "2026-01-22T09:57:48.979454Z",
+  "lead_time": 60.587
+},
+{
+  "query": " what flights depart baltimore on friday and arrive in san francisco by 8 pm",
+  "id": 189,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 21,
+      "end": 30,
+      "text": "baltimore",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 34,
+      "end": 40,
+      "text": "friday",
+      "labels": [
+        "day_of_week"
+      ]
+    },
+    {
+      "start": 72,
+      "end": 76,
+      "text": "8 pm",
+      "labels": [
+        "arrival_time"
+      ]
+    },
+    {
+      "start": 55,
+      "end": 68,
+      "text": "san francisco",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "ISO_TIME",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 194,
+  "created_at": "2026-01-22T09:59:18.731176Z",
+  "updated_at": "2026-01-22T09:59:18.731176Z",
+  "lead_time": 79.061
+},
+{
+  "query": " show me flights from boston to san francisco",
+  "id": 190,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 22,
+      "end": 28,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 45,
+      "text": "san francisco",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 195,
+  "created_at": "2026-01-22T09:59:40.763656Z",
+  "updated_at": "2026-01-22T09:59:40.763656Z",
+  "lead_time": 20.058
+},
+{
+  "query": " list the delta airlines flights from boston to philadelphia",
+  "id": 191,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 10,
+      "end": 15,
+      "text": "delta",
+      "labels": [
+        "airline_name"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 44,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 48,
+      "end": 60,
+      "text": "philadelphia",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 196,
+  "created_at": "2026-01-22T10:00:37.294685Z",
+  "updated_at": "2026-01-22T10:00:37.294685Z",
+  "lead_time": 54.616
+},
+{
+  "query": " show me the fares from dallas to san francisco",
+  "id": 192,
+  "intent": "airfare_query",
+  "entities": [
+    {
+      "start": 24,
+      "end": 30,
+      "text": "dallas",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 34,
+      "end": 47,
+      "text": "san francisco",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 197,
+  "created_at": "2026-01-22T10:00:59.310485Z",
+  "updated_at": "2026-01-22T10:00:59.310485Z",
+  "lead_time": 17.235
+},
+{
+  "query": " what nonstop flights between boston and washington arrive after 4 o'clock pm",
+  "id": 193,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 30,
+      "end": 36,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 41,
+      "end": 51,
+      "text": "washington",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 65,
+      "end": 77,
+      "text": "4 o'clock pm",
+      "labels": [
+        "arrival_time"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_TIME"
+  ],
+  "annotator": 1,
+  "annotation_id": 198,
+  "created_at": "2026-01-22T10:01:47.388854Z",
+  "updated_at": "2026-01-22T10:01:47.388854Z",
+  "lead_time": 45.516
+},
+{
+  "query": " ground transportation in san jose",
+  "id": 194,
+  "intent": "ground_service",
+  "entities": [
+    {
+      "start": 26,
+      "end": 34,
+      "text": "san jose",
+      "labels": [
+        "city"
+      ]
+    }
+  ],
+  "normalized_value": "IATA_CODE",
+  "annotator": 1,
+  "annotation_id": 199,
+  "created_at": "2026-01-22T10:02:28.503969Z",
+  "updated_at": "2026-01-22T10:02:28.503969Z",
+  "lead_time": 21.179
+},
+{
+  "query": " please tell me how many nonstop flights there are from boston to atlanta",
+  "id": 195,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 56,
+      "end": 62,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 66,
+      "end": 73,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 200,
+  "created_at": "2026-01-22T10:36:49.824568Z",
+  "updated_at": "2026-01-22T10:36:49.824568Z",
+  "lead_time": 26.526
+},
+{
+  "query": " on the earliest flight from san francisco to atlanta on delta is a meal being served",
+  "id": 196,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 29,
+      "end": 42,
+      "text": "san francisco",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 46,
+      "end": 53,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 62,
+      "text": "delta",
+      "labels": [
+        "airline_name"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 201,
+  "created_at": "2026-01-22T10:37:23.862845Z",
+  "updated_at": "2026-01-22T10:37:23.862845Z",
+  "lead_time": 30.43
+},
+{
+  "query": " where does canadian airlines international fly",
+  "id": 197,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 12,
+      "end": 43,
+      "text": "canadian airlines international",
+      "labels": [
+        "airline_name"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 202,
+  "created_at": "2026-01-22T10:37:39.714948Z",
+  "updated_at": "2026-01-22T10:37:39.714948Z",
+  "lead_time": 12.885
+},
+{
+  "query": " what flights from denver to pittsburgh arrive before 8 in the morning",
+  "id": 198,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 19,
+      "end": 25,
+      "text": "denver",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 29,
+      "end": 39,
+      "text": "pittsburgh",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "text": "8",
+      "labels": [
+        "arrival_time"
+      ]
+    },
+    {
+      "start": 63,
+      "end": 70,
+      "text": "morning",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_TIME"
+  ],
+  "annotator": 1,
+  "annotation_id": 203,
+  "created_at": "2026-01-22T10:38:40.142956Z",
+  "updated_at": "2026-01-22T10:38:40.142956Z",
+  "lead_time": 57.779
+},
+{
+  "query": " find me the earliest flight from boston to atlanta",
+  "id": 199,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 34,
+      "end": 40,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 44,
+      "end": 51,
+      "text": "atlanta",
+      "labels": [
+        "to_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 204,
+  "created_at": "2026-01-22T10:39:10.915866Z",
+  "updated_at": "2026-01-22T10:39:10.915866Z",
+  "lead_time": 17.64
+},
+{
+  "query": " list nonstop flights from houston to dallas which arrive before midnight",
+  "id": 200,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 27,
+      "end": 34,
+      "text": "houston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 44,
+      "text": "dallas",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 65,
+      "end": 73,
+      "text": "midnight",
+      "labels": [
+        "time_period"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "ISO_TIME"
+  ],
+  "annotator": 1,
+  "annotation_id": 205,
+  "created_at": "2026-01-22T10:40:12.715180Z",
+  "updated_at": "2026-01-22T10:40:12.715180Z",
+  "lead_time": 58.486
+},
+{
+  "query": " show me the flights from boston to san francisco that stop in atlanta",
+  "id": 201,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 26,
+      "end": 32,
+      "text": "boston",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 49,
+      "text": "san francisco",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 63,
+      "end": 70,
+      "text": "atlanta",
+      "labels": [
+        "stopover_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 206,
+  "created_at": "2026-01-22T10:40:43.374111Z",
+  "updated_at": "2026-01-22T10:40:43.374111Z",
+  "lead_time": 26.687
+},
+{
+  "query": " show me flights to san francisco from philadelphia stopping in dallas",
+  "id": 202,
+  "intent": "flight_search",
+  "entities": [
+    {
+      "start": 20,
+      "end": 33,
+      "text": "san francisco",
+      "labels": [
+        "from_city"
+      ]
+    },
+    {
+      "start": 39,
+      "end": 51,
+      "text": "philadelphia",
+      "labels": [
+        "to_city"
+      ]
+    },
+    {
+      "start": 64,
+      "end": 70,
+      "text": "dallas",
+      "labels": [
+        "stopover_city"
+      ]
+    }
+  ],
+  "normalized_value": [
+    "IATA_CODE",
+    "IATA_CODE",
+    "IATA_CODE"
+  ],
+  "annotator": 1,
+  "annotation_id": 207,
+  "created_at": "2026-01-22T10:41:06.103824Z",
+  "updated_at": "2026-01-22T10:41:06.103824Z",
+  "lead_time": 19.928
+}
+]

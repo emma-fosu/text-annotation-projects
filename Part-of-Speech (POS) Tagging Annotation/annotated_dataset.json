@@ -1,0 +1,5302 @@
+[
+{
+  "id": 203,
+  "text": "Say, Jim, how about going for a few beers after dinner?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Say",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 3,
+      "end": 4,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 5,
+      "end": 8,
+      "text": "Jim",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 8,
+      "end": 9,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 30,
+      "end": 31,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 35,
+      "text": "few",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 41,
+      "text": "beers",
+      "labels": [
+        "NNS"
+      ]
+    },
+    {
+      "start": 42,
+      "end": 47,
+      "text": "after",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 48,
+      "end": 54,
+      "text": "dinner",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 26,
+      "end": 29,
+      "text": "for",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 20,
+      "end": 25,
+      "text": "going",
+      "labels": [
+        "VBG"
+      ]
+    },
+    {
+      "start": 10,
+      "end": 13,
+      "text": "how",
+      "labels": [
+        "WRB"
+      ]
+    },
+    {
+      "start": 14,
+      "end": 19,
+      "text": "about",
+      "labels": [
+        "IN"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 228,
+  "created_at": "2026-01-27T15:32:02.914685Z",
+  "updated_at": "2026-01-27T15:32:02.914685Z",
+  "lead_time": 237.761
+},
+{
+  "id": 204,
+  "text": "You know that is tempting but is really not good for our fitness.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "You",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 8,
+      "text": "know",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 9,
+      "end": 13,
+      "text": "that",
+      "labels": [
+        "WDT"
+      ]
+    },
+    {
+      "start": 14,
+      "end": 16,
+      "text": "is",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 17,
+      "end": 25,
+      "text": "tempting",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 26,
+      "end": 29,
+      "text": "but",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 30,
+      "end": 32,
+      "text": "is",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 33,
+      "end": 39,
+      "text": "really",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 40,
+      "end": 43,
+      "text": "not",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 44,
+      "end": 48,
+      "text": "good",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 49,
+      "end": 52,
+      "text": "for",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 53,
+      "end": 56,
+      "text": "our",
+      "labels": [
+        "PRP$"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 64,
+      "text": "fitness",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 64,
+      "end": 65,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 227,
+  "created_at": "2026-01-27T15:28:02.857019Z",
+  "updated_at": "2026-01-27T15:28:02.857019Z",
+  "lead_time": 493.601
+},
+{
+  "id": 205,
+  "text": "What do you mean? It will help us to relax.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "What",
+      "labels": [
+        "WP"
+      ]
+    },
+    {
+      "start": 5,
+      "end": 7,
+      "text": "do",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 8,
+      "end": 11,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 16,
+      "text": "mean",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 16,
+      "end": 17,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 18,
+      "end": 20,
+      "text": "It",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 21,
+      "end": 25,
+      "text": "will",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 26,
+      "end": 30,
+      "text": "help",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 31,
+      "end": 33,
+      "text": "us",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 34,
+      "end": 36,
+      "text": "to",
+      "labels": [
+        "TO"
+      ]
+    },
+    {
+      "start": 37,
+      "end": 42,
+      "text": "relax",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 226,
+  "created_at": "2026-01-27T15:19:46.227672Z",
+  "updated_at": "2026-01-27T15:19:46.227672Z",
+  "lead_time": 120.485
+},
+{
+  "id": 206,
+  "text": "Do you really think so? I don't. It will just make us fat and act silly. Remember last time?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 2,
+      "text": "Do",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 3,
+      "end": 6,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 7,
+      "end": 13,
+      "text": "really",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 14,
+      "end": 19,
+      "text": "think",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 20,
+      "end": 22,
+      "text": "so",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 26,
+      "end": 28,
+      "text": "do",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 28,
+      "end": 31,
+      "text": "n't",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 33,
+      "end": 35,
+      "text": "It",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 40,
+      "text": "will",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 41,
+      "end": 45,
+      "text": "just",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "text": "make",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 51,
+      "end": 53,
+      "text": "us",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 54,
+      "end": 57,
+      "text": "fat",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 58,
+      "end": 61,
+      "text": "and",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 62,
+      "end": 65,
+      "text": "act",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 66,
+      "end": 71,
+      "text": "silly",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 71,
+      "end": 72,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 73,
+      "end": 81,
+      "text": "Remember",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 82,
+      "end": 86,
+      "text": "last",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 87,
+      "end": 91,
+      "text": "time",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 225,
+  "created_at": "2026-01-27T15:17:39.486997Z",
+  "updated_at": "2026-01-27T15:17:39.486997Z",
+  "lead_time": 314.359
+},
+{
+  "id": 207,
+  "text": "I guess you are right. But what shall we do? I don't feel like sitting at home.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 2,
+      "end": 7,
+      "text": "guess",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 8,
+      "end": 11,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "are",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 16,
+      "end": 21,
+      "text": "right",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 21,
+      "end": 22,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 23,
+      "end": 26,
+      "text": "But",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 27,
+      "end": 31,
+      "text": "what",
+      "labels": [
+        "WDT"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 37,
+      "text": "shall",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 40,
+      "text": "we",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 41,
+      "end": 43,
+      "text": "do",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 47,
+      "end": 49,
+      "text": "do",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 49,
+      "end": 52,
+      "text": "n't",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 53,
+      "end": 57,
+      "text": "feel",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 58,
+      "end": 62,
+      "text": "like",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 63,
+      "end": 70,
+      "text": "sitting",
+      "labels": [
+        "VBG"
+      ]
+    },
+    {
+      "start": 71,
+      "end": 73,
+      "text": "at",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 74,
+      "end": 78,
+      "text": "home",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 78,
+      "end": 79,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 224,
+  "created_at": "2026-01-27T15:12:18.389110Z",
+  "updated_at": "2026-01-27T15:12:18.389110Z",
+  "lead_time": 281.637
+},
+{
+  "id": 208,
+  "text": "I suggest a walk over to the gym where we can play singsong and meet some of our friends.",
+  "annotator": 1,
+  "annotation_id": 248,
+  "created_at": "2026-01-27T17:04:42.293587Z",
+  "updated_at": "2026-01-27T17:04:42.293587Z",
+  "lead_time": 45.415
+},
+{
+  "id": 209,
+  "text": "That's a good idea. I hear Mary and Sally often go there to play pingpong. Perhaps we can make a foursome with them.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "That",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "'s",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 7,
+      "end": 8,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 9,
+      "end": 13,
+      "text": "good",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 14,
+      "end": 18,
+      "text": "idea",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 18,
+      "end": 19,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 20,
+      "end": 21,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 22,
+      "end": 26,
+      "text": "hear",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 27,
+      "end": 31,
+      "text": "Mary",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 35,
+      "text": "and",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 41,
+      "text": "Sally",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 42,
+      "end": 47,
+      "text": "often",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 48,
+      "end": 50,
+      "text": "go",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 51,
+      "end": 56,
+      "text": "there",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 59,
+      "text": "to",
+      "labels": [
+        "TO"
+      ]
+    },
+    {
+      "start": 60,
+      "end": 64,
+      "text": "play",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 65,
+      "end": 73,
+      "text": "pingpong",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 73,
+      "end": 74,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 75,
+      "end": 82,
+      "text": "Perhaps",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 83,
+      "end": 85,
+      "text": "we",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 86,
+      "end": 89,
+      "text": "can",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 90,
+      "end": 94,
+      "text": "make",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 95,
+      "end": 96,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 97,
+      "end": 105,
+      "text": "foursome",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 106,
+      "end": 110,
+      "text": "with",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 111,
+      "end": 115,
+      "text": "them",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 247,
+  "created_at": "2026-01-27T17:03:54.456399Z",
+  "updated_at": "2026-01-27T17:03:54.456399Z",
+  "lead_time": 305.35
+},
+{
+  "id": 210,
+  "text": "Sounds great to me! If they are willing, we could ask them to go dancing with us. That is excellent exercise and fun, too.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 6,
+      "text": "Sounds",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 7,
+      "end": 12,
+      "text": "great",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 13,
+      "end": 15,
+      "text": "to",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 16,
+      "end": 18,
+      "text": "me",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 18,
+      "end": 19,
+      "text": "!",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 20,
+      "end": 22,
+      "text": "If",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 23,
+      "end": 27,
+      "text": "they",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 28,
+      "end": 31,
+      "text": "are",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 39,
+      "text": "willing",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 39,
+      "end": 40,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 41,
+      "end": 43,
+      "text": "we",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 44,
+      "end": 49,
+      "text": "could",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 50,
+      "end": 53,
+      "text": "ask",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 54,
+      "end": 58,
+      "text": "them",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 59,
+      "end": 61,
+      "text": "to",
+      "labels": [
+        "TO"
+      ]
+    },
+    {
+      "start": 62,
+      "end": 64,
+      "text": "go",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 65,
+      "end": 72,
+      "text": "dancing",
+      "labels": [
+        "VBG"
+      ]
+    },
+    {
+      "start": 78,
+      "end": 80,
+      "text": "us",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 73,
+      "end": 77,
+      "text": "with",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 82,
+      "end": 86,
+      "text": "That",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 87,
+      "end": 89,
+      "text": "is",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 90,
+      "end": 99,
+      "text": "excellent",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 100,
+      "end": 108,
+      "text": "exercise",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 109,
+      "end": 112,
+      "text": "and",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 113,
+      "end": 116,
+      "text": "fun",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 116,
+      "end": 117,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 118,
+      "end": 121,
+      "text": "too",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 121,
+      "end": 122,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 246,
+  "created_at": "2026-01-27T16:58:46.008140Z",
+  "updated_at": "2026-01-27T16:58:46.008140Z",
+  "lead_time": 352.779
+},
+{
+  "id": 211,
+  "text": "Good. Let's go now.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "Good",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 5,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 6,
+      "end": 9,
+      "text": "Let",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 9,
+      "end": 11,
+      "text": "'s",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 14,
+      "text": "go",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 15,
+      "end": 18,
+      "text": "now",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 18,
+      "end": 19,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 245,
+  "created_at": "2026-01-27T16:52:50.372304Z",
+  "updated_at": "2026-01-27T16:52:50.374323Z",
+  "lead_time": 76.397
+},
+{
+  "id": 212,
+  "text": "All right.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "All",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 9,
+      "text": "right",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 9,
+      "end": 10,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 244,
+  "created_at": "2026-01-27T16:50:51.188350Z",
+  "updated_at": "2026-01-27T16:51:31.466778Z",
+  "lead_time": 78.588
+},
+{
+  "id": 213,
+  "text": "Can you do push-ups?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Can",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 7,
+      "text": "you",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "do",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 11,
+      "end": 19,
+      "text": "push-ups",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 19,
+      "end": 20,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 223,
+  "created_at": "2026-01-27T15:07:32.355767Z",
+  "updated_at": "2026-01-27T15:07:32.355767Z",
+  "lead_time": 76.849
+},
+{
+  "id": 214,
+  "text": "Of course I can. It's a piece of cake! Believe it or not, I can do 30 push-ups a minute.",
+  "pos-tag": [
+    {
+      "start": 10,
+      "end": 11,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 15,
+      "text": "can",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 15,
+      "end": 16,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 17,
+      "end": 19,
+      "text": "It",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 19,
+      "end": 21,
+      "text": "'s",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 24,
+      "end": 29,
+      "text": "piece",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 33,
+      "end": 37,
+      "text": "cake",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 37,
+      "end": 38,
+      "text": "!",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 39,
+      "end": 46,
+      "text": "Believe",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 47,
+      "end": 49,
+      "text": "it",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 50,
+      "end": 52,
+      "text": "or",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 53,
+      "end": 56,
+      "text": "not",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 56,
+      "end": 57,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 60,
+      "end": 63,
+      "text": "can",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 64,
+      "end": 66,
+      "text": "do",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 67,
+      "end": 69,
+      "text": "30",
+      "labels": [
+        "CD"
+      ]
+    },
+    {
+      "start": 70,
+      "end": 78,
+      "text": "push-ups",
+      "labels": [
+        "NNS"
+      ]
+    },
+    {
+      "start": 79,
+      "end": 80,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 81,
+      "end": 87,
+      "text": "minute",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 87,
+      "end": 88,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 3,
+      "end": 9,
+      "text": "course",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 2,
+      "text": "Of",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 30,
+      "end": 32,
+      "text": "of",
+      "labels": [
+        "IN"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 249,
+  "created_at": "2026-01-27T17:17:27.850675Z",
+  "updated_at": "2026-01-27T17:17:27.850675Z",
+  "lead_time": 305.73
+},
+{
+  "id": 215,
+  "text": "Really? I think that's impossible!",
+  "pos-tag": [
+    {
+      "start": 8,
+      "end": 9,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 10,
+      "end": 15,
+      "text": "think",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 16,
+      "end": 20,
+      "text": "that",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 20,
+      "end": 22,
+      "text": "'s",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 23,
+      "end": 33,
+      "text": "impossible",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 33,
+      "end": 34,
+      "text": "!",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 0,
+      "end": 6,
+      "text": "Really",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 6,
+      "end": 7,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 222,
+  "created_at": "2026-01-27T15:06:12.381818Z",
+  "updated_at": "2026-01-27T15:06:12.381818Z",
+  "lead_time": 139.809
+},
+{
+  "id": 216,
+  "text": "You mean 30 push-ups?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "You",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 8,
+      "text": "mean",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 9,
+      "end": 11,
+      "text": "30",
+      "labels": [
+        "CD"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 20,
+      "text": "push-ups",
+      "labels": [
+        "NNS"
+      ]
+    },
+    {
+      "start": 20,
+      "end": 21,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 208,
+  "created_at": "2026-01-26T19:29:51.183869Z",
+  "updated_at": "2026-01-26T19:29:51.183869Z",
+  "lead_time": 211.35000000000002
+},
+{
+  "id": 217,
+  "text": "Yeah!",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "Yeah",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 5,
+      "text": "!",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 209,
+  "created_at": "2026-01-26T19:31:13.401732Z",
+  "updated_at": "2026-01-26T19:31:13.401732Z",
+  "lead_time": 76.91
+},
+{
+  "id": 218,
+  "text": "It's easy. If you do exercise everyday, you can make it, too.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 2,
+      "text": "It",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "'s",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "text": "easy",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 9,
+      "end": 10,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 11,
+      "end": 13,
+      "text": "If",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 14,
+      "end": 17,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 21,
+      "end": 29,
+      "text": "exercise",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 18,
+      "end": 20,
+      "text": "do",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 30,
+      "end": 35,
+      "text": "every",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 40,
+      "end": 43,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 44,
+      "end": 47,
+      "text": "can",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 48,
+      "end": 52,
+      "text": "make",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 53,
+      "end": 55,
+      "text": "it",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 60,
+      "text": "too",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 60,
+      "end": 61,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 35,
+      "end": 38,
+      "text": "day",
+      "labels": [
+        "NN"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 210,
+  "created_at": "2026-01-26T19:41:34.349672Z",
+  "updated_at": "2026-01-26T19:41:34.349672Z",
+  "lead_time": 473.273
+},
+{
+  "id": 219,
+  "text": "Can you study with the radio on?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Can",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 3,
+      "end": 7,
+      "text": " you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 8,
+      "end": 14,
+      "text": "study ",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 14,
+      "end": 18,
+      "text": "with",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 19,
+      "end": 22,
+      "text": "the",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 23,
+      "end": 28,
+      "text": "radio",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 29,
+      "end": 31,
+      "text": "on",
+      "labels": [
+        "RB"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 211,
+  "created_at": "2026-01-26T19:43:56.772973Z",
+  "updated_at": "2026-01-26T19:43:56.772973Z",
+  "lead_time": 134.655
+},
+{
+  "id": 220,
+  "text": "No, I listen to background music.",
+  "pos-tag": [
+    {
+      "start": 4,
+      "end": 5,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 5,
+      "end": 12,
+      "text": " listen",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 13,
+      "end": 15,
+      "text": "to",
+      "labels": [
+        "TO"
+      ]
+    },
+    {
+      "start": 16,
+      "end": 26,
+      "text": "background",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 27,
+      "end": 32,
+      "text": "music",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 33,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 0,
+      "end": 2,
+      "text": "No",
+      "labels": [
+        "RB"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 212,
+  "created_at": "2026-01-26T19:47:51.432695Z",
+  "updated_at": "2026-01-26T19:47:51.432695Z",
+  "lead_time": 207.009
+},
+{
+  "id": 221,
+  "text": "What is the difference?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "What",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 5,
+      "end": 7,
+      "text": "is",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 8,
+      "end": 11,
+      "text": "the",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 11,
+      "end": 22,
+      "text": " difference",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 22,
+      "end": 23,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 213,
+  "created_at": "2026-01-26T19:59:49.622353Z",
+  "updated_at": "2026-01-26T19:59:49.622353Z",
+  "lead_time": 712.563
+},
+{
+  "id": 222,
+  "text": "The radio has too many commercials.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "The",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 9,
+      "text": "radio",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 10,
+      "end": 13,
+      "text": "has",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 14,
+      "end": 17,
+      "text": "too",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 18,
+      "end": 22,
+      "text": "many",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 23,
+      "end": 34,
+      "text": "commercials",
+      "labels": [
+        "NNS"
+      ]
+    },
+    {
+      "start": 34,
+      "end": 35,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 214,
+  "created_at": "2026-01-26T20:06:55.445530Z",
+  "updated_at": "2026-01-26T20:06:55.445530Z",
+  "lead_time": 319.881
+},
+{
+  "id": 223,
+  "text": "That's true, but then you have to buy a record player.",
+  "pos-tag": [
+    {
+      "start": 13,
+      "end": 16,
+      "text": "but",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 22,
+      "end": 25,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 26,
+      "end": 30,
+      "text": "have",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 31,
+      "end": 33,
+      "text": "to",
+      "labels": [
+        "TO"
+      ]
+    },
+    {
+      "start": 34,
+      "end": 37,
+      "text": "buy",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 39,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 40,
+      "end": 46,
+      "text": "record",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 47,
+      "end": 53,
+      "text": "player",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 53,
+      "end": 54,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 7,
+      "end": 11,
+      "text": "true",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 11,
+      "end": 12,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 0,
+      "end": 4,
+      "text": "That",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "'s",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 17,
+      "end": 21,
+      "text": "then",
+      "labels": [
+        "RB"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 229,
+  "created_at": "2026-01-27T15:36:22.827792Z",
+  "updated_at": "2026-01-27T15:36:22.827792Z",
+  "lead_time": 242.394
+},
+{
+  "id": 224,
+  "text": "Are you all right?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Are",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 7,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 8,
+      "end": 11,
+      "text": "all",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 17,
+      "text": "right",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 17,
+      "end": 18,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 230,
+  "created_at": "2026-01-27T15:37:53.960529Z",
+  "updated_at": "2026-01-27T15:37:53.960529Z",
+  "lead_time": 88.008
+},
+{
+  "id": 225,
+  "text": "I will be all right soon. I was terrified when I watched them fall from the wire.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 2,
+      "end": 6,
+      "text": "will",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 10,
+      "end": 13,
+      "text": "all",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 7,
+      "end": 9,
+      "text": "be",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 14,
+      "end": 19,
+      "text": "right",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 20,
+      "end": 24,
+      "text": "soon",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 28,
+      "end": 31,
+      "text": "was",
+      "labels": [
+        "VBD"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 41,
+      "text": "terrified",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 42,
+      "end": 46,
+      "text": "when",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "text": "watched",
+      "labels": [
+        "VBD"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 61,
+      "text": "them",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 62,
+      "end": 66,
+      "text": "fall",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 67,
+      "end": 71,
+      "text": "from",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 72,
+      "end": 75,
+      "text": "the",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 76,
+      "end": 80,
+      "text": "wire",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 231,
+  "created_at": "2026-01-27T15:44:18.628062Z",
+  "updated_at": "2026-01-27T15:44:18.628062Z",
+  "lead_time": 382.345
+},
+{
+  "id": 226,
+  "text": "Don't worry. He is an acrobat.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 2,
+      "text": "Do",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 2,
+      "end": 5,
+      "text": "n't",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 13,
+      "end": 15,
+      "text": "He",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 16,
+      "end": 18,
+      "text": "is",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 19,
+      "end": 21,
+      "text": "an",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 22,
+      "end": 29,
+      "text": "acrobat",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 6,
+      "end": 11,
+      "text": "worry",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 11,
+      "end": 12,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 232,
+  "created_at": "2026-01-27T15:46:27.203073Z",
+  "updated_at": "2026-01-27T15:46:27.203073Z",
+  "lead_time": 125.356
+},
+{
+  "id": 227,
+  "text": "I see.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 2,
+      "end": 5,
+      "text": "see",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 5,
+      "end": 6,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 233,
+  "created_at": "2026-01-27T15:47:04.677429Z",
+  "updated_at": "2026-01-27T15:47:04.677429Z",
+  "lead_time": 34.726
+},
+{
+  "id": 228,
+  "text": "Hey Lydia, what are you reading?",
+  "pos-tag": [
+    {
+      "start": 11,
+      "end": 15,
+      "text": "what",
+      "labels": [
+        "WP"
+      ]
+    },
+    {
+      "start": 16,
+      "end": 19,
+      "text": "are",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 20,
+      "end": 23,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 24,
+      "end": 31,
+      "text": "reading",
+      "labels": [
+        "VBG"
+      ]
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 9,
+      "end": 10,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 4,
+      "end": 9,
+      "text": "Lydia",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Hey",
+      "labels": [
+        "UH"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 234,
+  "created_at": "2026-01-27T15:49:32.440266Z",
+  "updated_at": "2026-01-27T15:49:32.440266Z",
+  "lead_time": 142.88
+},
+{
+  "id": 229,
+  "text": "I'm looking at my horoscope for this month! My outlook is very positive. It says that I should take a vacation to someplace exotic, and that I will have a passionate summer fling!",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 1,
+      "end": 3,
+      "text": "'m",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 11,
+      "text": "looking",
+      "labels": [
+        "VBG"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 14,
+      "text": "at",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 15,
+      "end": 17,
+      "text": "my",
+      "labels": [
+        "PRP$"
+      ]
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "horoscope",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 28,
+      "end": 31,
+      "text": "for",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "text": "!",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 37,
+      "end": 42,
+      "text": "month",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 44,
+      "end": 46,
+      "text": "My",
+      "labels": [
+        "PRP$"
+      ]
+    },
+    {
+      "start": 47,
+      "end": 54,
+      "text": "outlook",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 55,
+      "end": 57,
+      "text": "is",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 58,
+      "end": 62,
+      "text": "very",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 63,
+      "end": 71,
+      "text": "positive",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 71,
+      "end": 72,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 73,
+      "end": 75,
+      "text": "It",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 76,
+      "end": 81,
+      "text": "says ",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 81,
+      "end": 85,
+      "text": "that",
+      "labels": [
+        "WDT"
+      ]
+    },
+    {
+      "start": 86,
+      "end": 87,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 88,
+      "end": 94,
+      "text": "should",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 95,
+      "end": 99,
+      "text": "take",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 100,
+      "end": 101,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 102,
+      "end": 110,
+      "text": "vacation",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 111,
+      "end": 113,
+      "text": "to",
+      "labels": [
+        "TO"
+      ]
+    },
+    {
+      "start": 132,
+      "end": 135,
+      "text": "and",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 130,
+      "end": 131,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 136,
+      "end": 140,
+      "text": "that",
+      "labels": [
+        "WDT"
+      ]
+    },
+    {
+      "start": 141,
+      "end": 142,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 143,
+      "end": 147,
+      "text": "will",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 148,
+      "end": 152,
+      "text": "have",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 153,
+      "end": 154,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 155,
+      "end": 165,
+      "text": "passionate",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 166,
+      "end": 172,
+      "text": "summer",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 173,
+      "end": 178,
+      "text": "fling",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 178,
+      "end": 179,
+      "text": "!",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 32,
+      "end": 36,
+      "text": "this",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 114,
+      "end": 123,
+      "text": "someplace",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 124,
+      "end": 130,
+      "text": "exotic",
+      "labels": [
+        "JJ"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 235,
+  "created_at": "2026-01-27T15:59:16.964742Z",
+  "updated_at": "2026-01-27T15:59:16.964742Z",
+  "lead_time": 582.616
+},
+{
+  "id": 230,
+  "text": "What are you talking about? Let me see that... What are horoscopes?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "What",
+      "labels": [
+        "WP"
+      ]
+    },
+    {
+      "start": 5,
+      "end": 8,
+      "text": "are",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 9,
+      "end": 12,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 13,
+      "end": 20,
+      "text": "talking",
+      "labels": [
+        "VBG"
+      ]
+    },
+    {
+      "start": 26,
+      "end": 27,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 21,
+      "end": 26,
+      "text": "about",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 34,
+      "text": "me",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 28,
+      "end": 31,
+      "text": "Let",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 35,
+      "end": 38,
+      "text": "see",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 47,
+      "end": 51,
+      "text": "What",
+      "labels": [
+        "WP"
+      ]
+    },
+    {
+      "start": 52,
+      "end": 55,
+      "text": "are",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 56,
+      "end": 66,
+      "text": "horoscopes",
+      "labels": [
+        "NNS"
+      ]
+    },
+    {
+      "start": 66,
+      "end": 67,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 43,
+      "end": 46,
+      "text": "...",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 39,
+      "end": 43,
+      "text": "that",
+      "labels": [
+        "DT"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 236,
+  "created_at": "2026-01-27T16:07:39.547382Z",
+  "updated_at": "2026-01-27T16:07:39.547382Z",
+  "lead_time": 354.162
+},
+{
+  "id": 231,
+  "text": "It's a prediction of your month, based on your zodiac sign. You have a different sign for the month and date you were born in. I was born on April 15th, so I'm an Aries. When were you born?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 2,
+      "text": "It",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "'s",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 5,
+      "end": 6,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 7,
+      "end": 17,
+      "text": "prediction",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 18,
+      "end": 20,
+      "text": "of",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 21,
+      "end": 25,
+      "text": "your",
+      "labels": [
+        "PRP$"
+      ]
+    },
+    {
+      "start": 26,
+      "end": 31,
+      "text": "month",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 31,
+      "end": 33,
+      "text": ", ",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 33,
+      "end": 38,
+      "text": "based",
+      "labels": [
+        "VBN"
+      ]
+    },
+    {
+      "start": 39,
+      "end": 41,
+      "text": "on",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 42,
+      "end": 46,
+      "text": "your",
+      "labels": [
+        "PRP$"
+      ]
+    },
+    {
+      "start": 47,
+      "end": 53,
+      "text": "zodiac",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 54,
+      "end": 58,
+      "text": "sign",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 58,
+      "end": 59,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 60,
+      "end": 63,
+      "text": "You",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 64,
+      "end": 68,
+      "text": "have",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 69,
+      "end": 70,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 71,
+      "end": 80,
+      "text": "different",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 81,
+      "end": 85,
+      "text": "sign",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 86,
+      "end": 89,
+      "text": "for",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 90,
+      "end": 93,
+      "text": "the",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 94,
+      "end": 99,
+      "text": "month",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 100,
+      "end": 103,
+      "text": "and",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 104,
+      "end": 108,
+      "text": "date",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 109,
+      "end": 112,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 113,
+      "end": 117,
+      "text": "were",
+      "labels": [
+        "VBD"
+      ]
+    },
+    {
+      "start": 118,
+      "end": 122,
+      "text": "born",
+      "labels": [
+        "VBN"
+      ]
+    },
+    {
+      "start": 123,
+      "end": 125,
+      "text": "in",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 125,
+      "end": 126,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 127,
+      "end": 128,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 129,
+      "end": 132,
+      "text": "was",
+      "labels": [
+        "VBD"
+      ]
+    },
+    {
+      "start": 133,
+      "end": 137,
+      "text": "born",
+      "labels": [
+        "VBN"
+      ]
+    },
+    {
+      "start": 138,
+      "end": 140,
+      "text": "on",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 141,
+      "end": 146,
+      "text": "April",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 153,
+      "end": 155,
+      "text": "so",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 156,
+      "end": 157,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 157,
+      "end": 159,
+      "text": "'m",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 160,
+      "end": 162,
+      "text": "an",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 163,
+      "end": 168,
+      "text": "Aries",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 168,
+      "end": 169,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 170,
+      "end": 174,
+      "text": "When",
+      "labels": [
+        "WRB"
+      ]
+    },
+    {
+      "start": 175,
+      "end": 179,
+      "text": "were",
+      "labels": [
+        "VBD"
+      ]
+    },
+    {
+      "start": 180,
+      "end": 183,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 184,
+      "end": 188,
+      "text": "born",
+      "labels": [
+        "VBN"
+      ]
+    },
+    {
+      "start": 188,
+      "end": 189,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 147,
+      "end": 151,
+      "text": "15th",
+      "labels": [
+        "CD"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 237,
+  "created_at": "2026-01-27T16:15:52.263114Z",
+  "updated_at": "2026-01-27T16:15:52.263114Z",
+  "lead_time": 489.845
+},
+{
+  "id": 232,
+  "text": "January 5th.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "January",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 8,
+      "end": 11,
+      "text": "5th",
+      "labels": [
+        "CD"
+      ]
+    },
+    {
+      "start": 11,
+      "end": 12,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 238,
+  "created_at": "2026-01-27T16:16:12.370707Z",
+  "updated_at": "2026-01-27T16:16:12.370707Z",
+  "lead_time": 17.458
+},
+{
+  "id": 233,
+  "text": "Let's see... you're a Capricorn. It says that you will be feeling stress at work, but you could see new, exciting developments in your love life. Looks like we'll both have interesting summers!",
+  "pos-tag": [
+    {
+      "start": 33,
+      "end": 35,
+      "text": "It",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 40,
+      "text": "says",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 41,
+      "end": 45,
+      "text": "that",
+      "labels": [
+        "WDT"
+      ]
+    },
+    {
+      "start": 46,
+      "end": 49,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 50,
+      "end": 54,
+      "text": "will",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 55,
+      "end": 57,
+      "text": "be",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 58,
+      "end": 65,
+      "text": "feeling",
+      "labels": [
+        "VBG"
+      ]
+    },
+    {
+      "start": 66,
+      "end": 72,
+      "text": "stress",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 73,
+      "end": 75,
+      "text": "at",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 76,
+      "end": 80,
+      "text": "work",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 82,
+      "end": 85,
+      "text": "but",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 86,
+      "end": 89,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 90,
+      "end": 95,
+      "text": "could",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 96,
+      "end": 99,
+      "text": "see",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 99,
+      "end": 103,
+      "text": " new",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 103,
+      "end": 104,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 105,
+      "end": 113,
+      "text": "exciting",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 114,
+      "end": 126,
+      "text": "developments",
+      "labels": [
+        "NNS"
+      ]
+    },
+    {
+      "start": 127,
+      "end": 129,
+      "text": "in",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 130,
+      "end": 134,
+      "text": "your",
+      "labels": [
+        "PRP$"
+      ]
+    },
+    {
+      "start": 135,
+      "end": 139,
+      "text": "love",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 140,
+      "end": 144,
+      "text": "life",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 144,
+      "end": 145,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 146,
+      "end": 151,
+      "text": "Looks",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 152,
+      "end": 156,
+      "text": "like",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 157,
+      "end": 159,
+      "text": "we",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 159,
+      "end": 162,
+      "text": "'ll",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 163,
+      "end": 167,
+      "text": "both",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 168,
+      "end": 172,
+      "text": "have",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 173,
+      "end": 184,
+      "text": "interesting",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 185,
+      "end": 192,
+      "text": "summers",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 192,
+      "end": 193,
+      "text": "!",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 13,
+      "end": 17,
+      "text": "you'",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 17,
+      "end": 19,
+      "text": "re",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 20,
+      "end": 21,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 22,
+      "end": 31,
+      "text": "Capricorn",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 31,
+      "end": 32,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Let",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 3,
+      "end": 5,
+      "text": "'s",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 6,
+      "end": 9,
+      "text": "see",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 9,
+      "end": 12,
+      "text": "...",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 239,
+  "created_at": "2026-01-27T16:24:04.581900Z",
+  "updated_at": "2026-01-27T16:24:04.581900Z",
+  "lead_time": 468.152
+},
+{
+  "id": 234,
+  "text": "That's bogus. I don't feel any stress at work, and my love life is practically nonexistent. This zodiac stuff is all a bunch of nonsense.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "That",
+      "labels": [
+        "WDT"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "'s",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 7,
+      "end": 12,
+      "text": "bogus",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 13,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 14,
+      "end": 15,
+      "text": "I",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 16,
+      "end": 18,
+      "text": "do",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 18,
+      "end": 21,
+      "text": "n't",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 22,
+      "end": 26,
+      "text": "feel",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 27,
+      "end": 30,
+      "text": "any",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 31,
+      "end": 37,
+      "text": "stress",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 40,
+      "text": "at",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 41,
+      "end": 45,
+      "text": "work",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 47,
+      "end": 50,
+      "text": "and",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 51,
+      "end": 53,
+      "text": "my",
+      "labels": [
+        "PRP$"
+      ]
+    },
+    {
+      "start": 54,
+      "end": 58,
+      "text": "love",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 59,
+      "end": 63,
+      "text": "life",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 64,
+      "end": 66,
+      "text": "is",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 67,
+      "end": 78,
+      "text": "practically",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 79,
+      "end": 90,
+      "text": "nonexistent",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 90,
+      "end": 91,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 92,
+      "end": 96,
+      "text": "This",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 97,
+      "end": 103,
+      "text": "zodiac",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 104,
+      "end": 109,
+      "text": "stuff",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 110,
+      "end": 112,
+      "text": "is",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 113,
+      "end": 116,
+      "text": "all",
+      "labels": [
+        "PDT"
+      ]
+    },
+    {
+      "start": 117,
+      "end": 118,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 119,
+      "end": 124,
+      "text": "bunch",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 125,
+      "end": 127,
+      "text": "of",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 128,
+      "end": 136,
+      "text": "nonsense",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 136,
+      "end": 137,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 240,
+  "created_at": "2026-01-27T16:31:55.123582Z",
+  "updated_at": "2026-01-27T16:31:55.123582Z",
+  "lead_time": 462.134
+},
+{
+  "id": 235,
+  "text": "No, it's not, your astrology sign can tell you a lot about your personality. See? It says that an Aries is energetic and loves to socialize.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 2,
+      "text": "No",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 2,
+      "end": 3,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "it",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "text": "'s",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 9,
+      "end": 12,
+      "text": "not",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 13,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 14,
+      "end": 18,
+      "text": "your",
+      "labels": [
+        "PRP$"
+      ]
+    },
+    {
+      "start": 19,
+      "end": 28,
+      "text": "astrology",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 29,
+      "end": 33,
+      "text": "sign",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 34,
+      "end": 37,
+      "text": "can",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 38,
+      "end": 42,
+      "text": "tell",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 43,
+      "end": 46,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 47,
+      "end": 48,
+      "text": "a",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 49,
+      "end": 52,
+      "text": "lot",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 53,
+      "end": 58,
+      "text": "about",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 59,
+      "end": 63,
+      "text": "your",
+      "labels": [
+        "PRP$"
+      ]
+    },
+    {
+      "start": 64,
+      "end": 75,
+      "text": "personality",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 75,
+      "end": 76,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 77,
+      "end": 80,
+      "text": "See",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 80,
+      "end": 81,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 82,
+      "end": 84,
+      "text": "It",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 85,
+      "end": 89,
+      "text": "says",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 90,
+      "end": 94,
+      "text": "that",
+      "labels": [
+        "WDT"
+      ]
+    },
+    {
+      "start": 95,
+      "end": 97,
+      "text": "an",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 98,
+      "end": 103,
+      "text": "Aries",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 104,
+      "end": 106,
+      "text": "is",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 107,
+      "end": 116,
+      "text": "energetic",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 117,
+      "end": 120,
+      "text": "and",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 121,
+      "end": 126,
+      "text": "loves",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 127,
+      "end": 129,
+      "text": "to",
+      "labels": [
+        "TO"
+      ]
+    },
+    {
+      "start": 130,
+      "end": 139,
+      "text": "socialize",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 139,
+      "end": 140,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 241,
+  "created_at": "2026-01-27T16:39:52.669182Z",
+  "updated_at": "2026-01-27T16:39:52.671224Z",
+  "lead_time": 473.793
+},
+{
+  "id": 236,
+  "text": "Well, you certainly match those criteria, but they're so broad they could apply to anyone. What does it say about me?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "Well",
+      "labels": [
+        "FW"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 5,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 6,
+      "end": 9,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 10,
+      "end": 19,
+      "text": "certainly",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 20,
+      "end": 25,
+      "text": "match",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 26,
+      "end": 31,
+      "text": "those",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 40,
+      "text": "criteria",
+      "labels": [
+        "NNS"
+      ]
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 42,
+      "end": 45,
+      "text": "but",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 46,
+      "end": 50,
+      "text": "they",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 50,
+      "end": 53,
+      "text": "'re",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 57,
+      "end": 62,
+      "text": "broad",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 54,
+      "end": 56,
+      "text": "so",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 63,
+      "end": 67,
+      "text": "they",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 68,
+      "end": 73,
+      "text": "could",
+      "labels": [
+        "MD"
+      ]
+    },
+    {
+      "start": 74,
+      "end": 79,
+      "text": "apply",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 80,
+      "end": 82,
+      "text": "to",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 83,
+      "end": 89,
+      "text": "anyone",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 89,
+      "end": 90,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 91,
+      "end": 95,
+      "text": "What",
+      "labels": [
+        "WP"
+      ]
+    },
+    {
+      "start": 96,
+      "end": 100,
+      "text": "does",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 101,
+      "end": 103,
+      "text": "it",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 104,
+      "end": 107,
+      "text": "say",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 108,
+      "end": 113,
+      "text": "about",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 114,
+      "end": 116,
+      "text": "me",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 116,
+      "end": 117,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 242,
+  "created_at": "2026-01-27T16:46:01.305245Z",
+  "updated_at": "2026-01-27T16:46:01.305710Z",
+  "lead_time": 365.102
+},
+{
+  "id": 237,
+  "text": "A Capricorn is serious-minded and practical. She likes to do things in conventional ways. That sounds just like you!",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": "A",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 2,
+      "end": 11,
+      "text": "Capricorn",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 14,
+      "text": "is",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 15,
+      "end": 29,
+      "text": "serious-minded",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 30,
+      "end": 33,
+      "text": "and",
+      "labels": [
+        "CC"
+      ]
+    },
+    {
+      "start": 34,
+      "end": 43,
+      "text": "practical",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 43,
+      "end": 44,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 45,
+      "end": 48,
+      "text": "She",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 49,
+      "end": 54,
+      "text": "likes",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 55,
+      "end": 57,
+      "text": "to",
+      "labels": [
+        "TO"
+      ]
+    },
+    {
+      "start": 58,
+      "end": 60,
+      "text": "do",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 61,
+      "end": 67,
+      "text": "things",
+      "labels": [
+        "NNS"
+      ]
+    },
+    {
+      "start": 68,
+      "end": 70,
+      "text": "in",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 71,
+      "end": 83,
+      "text": "conventional",
+      "labels": [
+        "JJ"
+      ]
+    },
+    {
+      "start": 84,
+      "end": 88,
+      "text": "ways",
+      "labels": [
+        "NNS"
+      ]
+    },
+    {
+      "start": 88,
+      "end": 89,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 90,
+      "end": 94,
+      "text": "That",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 95,
+      "end": 101,
+      "text": "sounds",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 107,
+      "end": 111,
+      "text": "like",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 112,
+      "end": 115,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "text": "!",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 102,
+      "end": 106,
+      "text": "just",
+      "labels": [
+        "RB"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 243,
+  "created_at": "2026-01-27T16:50:01.264057Z",
+  "updated_at": "2026-01-27T16:50:01.264057Z",
+  "lead_time": 236.6
+},
+{
+  "id": 238,
+  "text": "Frank's getting married, do you believe this?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 5,
+      "text": "Frank",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 5,
+      "end": 7,
+      "text": "'s",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 8,
+      "end": 15,
+      "text": "getting",
+      "labels": [
+        "VBG"
+      ]
+    },
+    {
+      "start": 25,
+      "end": 27,
+      "text": "do",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 28,
+      "end": 31,
+      "text": "you",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 32,
+      "end": 39,
+      "text": "believe",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 40,
+      "end": 44,
+      "text": "this",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 44,
+      "end": 45,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 16,
+      "end": 23,
+      "text": "married",
+      "labels": [
+        "JJ"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 220,
+  "created_at": "2026-01-27T15:01:58.053526Z",
+  "updated_at": "2026-01-27T15:01:58.053526Z",
+  "lead_time": 215.83499999999998
+},
+{
+  "id": 239,
+  "text": "Is he really?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 2,
+      "text": "Is",
+      "labels": [
+        "VB"
+      ]
+    },
+    {
+      "start": 3,
+      "end": 5,
+      "text": "he",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 6,
+      "end": 12,
+      "text": "really",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 12,
+      "end": 13,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 221,
+  "created_at": "2026-01-27T15:03:03.094677Z",
+  "updated_at": "2026-01-27T15:03:41.906922Z",
+  "lead_time": 73.939
+},
+{
+  "id": 240,
+  "text": "Yes, he is. He loves the girl very much.",
+  "pos-tag": [
+    {
+      "start": 12,
+      "end": 14,
+      "text": "He",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 15,
+      "end": 20,
+      "text": "loves",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 21,
+      "end": 24,
+      "text": "the",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 25,
+      "end": 29,
+      "text": "girl",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 30,
+      "end": 34,
+      "text": "very",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 35,
+      "end": 39,
+      "text": "much",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 39,
+      "end": 40,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 5,
+      "end": 7,
+      "text": "he",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 8,
+      "end": 10,
+      "text": "is",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 10,
+      "end": 11,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Yes",
+      "labels": [
+        "UH"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 215,
+  "created_at": "2026-01-27T14:43:08.773776Z",
+  "updated_at": "2026-01-27T14:43:08.773776Z",
+  "lead_time": 246.38
+},
+{
+  "id": 241,
+  "text": "Who is he marrying?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Who",
+      "labels": [
+        "WP"
+      ]
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "text": "is",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 7,
+      "end": 9,
+      "text": "he",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 10,
+      "end": 18,
+      "text": "marrying",
+      "labels": [
+        "VBG"
+      ]
+    },
+    {
+      "start": 18,
+      "end": 19,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 216,
+  "created_at": "2026-01-27T14:51:36.114402Z",
+  "updated_at": "2026-01-27T14:51:36.114402Z",
+  "lead_time": 504.429
+},
+{
+  "id": 242,
+  "text": "A girl he met on holiday in Spain, I think.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": "A",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 2,
+      "end": 6,
+      "text": "girl",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 7,
+      "end": 9,
+      "text": "he",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 10,
+      "end": 13,
+      "text": "met",
+      "labels": [
+        "VBD"
+      ]
+    },
+    {
+      "start": 14,
+      "end": 16,
+      "text": "on",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 17,
+      "end": 24,
+      "text": "holiday",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 25,
+      "end": 27,
+      "text": "in",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 28,
+      "end": 33,
+      "text": "Spain",
+      "labels": [
+        "NNP"
+      ]
+    },
+    {
+      "start": 35,
+      "end": 36,
+      "text": "I",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 37,
+      "end": 42,
+      "text": "think",
+      "labels": [
+        "VBP"
+      ]
+    },
+    {
+      "start": 42,
+      "end": 43,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 33,
+      "end": 34,
+      "text": ",",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 217,
+  "created_at": "2026-01-27T14:54:21.782046Z",
+  "updated_at": "2026-01-27T14:54:21.782046Z",
+  "lead_time": 163.091
+},
+{
+  "id": 243,
+  "text": "Have they set a date for the wedding?",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "Have",
+      "labels": [
+        "VBZ"
+      ]
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "text": "they",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 10,
+      "end": 13,
+      "text": "set",
+      "labels": [
+        "VBN"
+      ]
+    },
+    {
+      "start": 14,
+      "end": 15,
+      "text": "a",
+      "labels": [
+        "PRP"
+      ]
+    },
+    {
+      "start": 16,
+      "end": 20,
+      "text": "date",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 21,
+      "end": 24,
+      "text": "for",
+      "labels": [
+        "IN"
+      ]
+    },
+    {
+      "start": 25,
+      "end": 28,
+      "text": "the",
+      "labels": [
+        "DT"
+      ]
+    },
+    {
+      "start": 29,
+      "end": 36,
+      "text": "wedding",
+      "labels": [
+        "NN"
+      ]
+    },
+    {
+      "start": 36,
+      "end": 37,
+      "text": "?",
+      "labels": [
+        "."
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 218,
+  "created_at": "2026-01-27T14:56:23.262044Z",
+  "updated_at": "2026-01-27T14:56:23.262044Z",
+  "lead_time": 118.741
+},
+{
+  "id": 244,
+  "text": "Not yet.",
+  "pos-tag": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Not",
+      "labels": [
+        "RB"
+      ]
+    },
+    {
+      "start": 7,
+      "end": 8,
+      "text": ".",
+      "labels": [
+        "."
+      ]
+    },
+    {
+      "start": 4,
+      "end": 7,
+      "text": "yet",
+      "labels": [
+        "RB"
+      ]
+    }
+  ],
+  "annotator": 1,
+  "annotation_id": 219,
+  "created_at": "2026-01-27T14:57:38.414261Z",
+  "updated_at": "2026-01-27T14:57:38.414261Z",
+  "lead_time": 71.549
+}
+]

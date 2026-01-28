@@ -1,0 +1,241 @@
+{
+  "schema_name": "ATIS Semantic Annotation Schema",
+  "version": "1.0.0",
+  "domain": "Airline Travel Information System (ATIS)",
+  "task_type": [
+    "Intent Classification",
+    "Named Entity Recognition",
+    "Entity Normalization",
+    "Semantic Relations"
+  ],
+
+  "intents": {
+    "flight_search": {
+      "description": "User requests available flights between locations, optionally with time or date constraints."
+    },
+    "flight_schedule": {
+      "description": "User asks about departure or arrival times of flights."
+    },
+    "airfare_query": {
+      "description": "User asks about ticket prices or fare information."
+    },
+    "airline_query": {
+      "description": "User asks which airline operates flights on a route."
+    },
+    "airport_information": {
+      "description": "User asks about airport services or facilities."
+    },
+    "ground_service": {
+      "description": "User asks about ground transportation related to airports."
+    },
+    "flight_status": {
+      "description": "User checks whether a flight is on time, delayed, or cancelled."
+    },
+    "meal_request": {
+      "description": "User asks about in-flight meals."
+    },
+    "restriction_query": {
+      "description": "User asks about ticket rules or restrictions."
+    },
+    "distance_query": {
+      "description": "User asks about distance between cities or airports."
+    },
+    "capacity_query": {
+      "description": "User asks about seat availability."
+    },
+    "aircraft_query": {
+      "description": "User asks about aircraft type used for a flight."
+    },
+    "miscellaneous": {
+      "description": "Airline-related query not covered by predefined intents."
+    }
+  },
+
+  "entities": {
+    "location": {
+      "from_city": {
+        "description": "City of departure for a flight leg.",
+        "exclusive_with": ["city"]
+      },
+      "to_city": {
+        "description": "City of arrival for a flight leg.",
+        "exclusive_with": ["city"]
+      },
+      "from_airport": {
+        "description": "Departure airport.",
+        "exclusive_with": ["airport"]
+      },
+      "to_airport": {
+        "description": "Arrival airport.",
+        "exclusive_with": ["airport"]
+      },
+      "city": {
+        "description": "Generic city reference when direction is not specified."
+      },
+      "airport": {
+        "description": "Generic airport reference."
+      }
+    },
+
+    "temporal": {
+      "departure_date": {
+        "description": "Calendar date of departure."
+      },
+      "return_date": {
+        "description": "Calendar date of return for round-trip queries."
+      },
+      "departure_time": {
+        "description": "Clock time of flight departure."
+      },
+      "arrival_time": {
+        "description": "Clock time of flight arrival."
+      },
+      "day_of_week": {
+        "description": "Named weekday (e.g., Monday)."
+      },
+      "time_period": {
+        "description": "Part of day (e.g., morning, evening)."
+      },
+      "relative_time": {
+        "description": "Relative temporal expression (e.g., next week)."
+      }
+    },
+
+    "flight": {
+      "airline_name": {
+        "description": "Name of airline operating a flight."
+      },
+      "flight_number": {
+        "description": "Numeric or alphanumeric flight identifier."
+      },
+      "aircraft_type": {
+        "description": "Aircraft model or family."
+      }
+    },
+
+    "fare_service": {
+      "fare_amount": {
+        "description": "Numeric price of a ticket."
+      },
+      "fare_class": {
+        "description": "Ticket class (economy, business, first)."
+      },
+      "meal_type": {
+        "description": "Type of in-flight meal."
+      },
+      "seat_type": {
+        "description": "Seat preference (aisle, window)."
+      }
+    }
+  },
+
+  "entity_attributes": {
+    "normalized_value": {
+      "description": "Canonical format or category of the entity.",
+      "allowed_values": [
+        "ISO_DATE",
+        "ISO_TIME",
+        "IATA_CODE",
+        "RAW_TEXT"
+      ],
+      "applies_to": [
+        "departure_date",
+        "return_date",
+        "departure_time",
+        "arrival_time",
+        "from_city",
+        "to_city",
+        "from_airport",
+        "to_airport"
+      ]
+    },
+
+    "specificity": {
+      "description": "Indicates whether the time or date is exact or approximate.",
+      "allowed_values": ["exact", "approximate"],
+      "applies_to": [
+        "departure_time",
+        "arrival_time",
+        "departure_date"
+      ]
+    },
+
+    "relative_time": {
+      "description": "Relative temporal reference.",
+      "allowed_values": [
+        "today",
+        "tomorrow",
+        "next_week"
+      ],
+      "applies_to": [
+        "departure_date",
+        "day_of_week"
+      ]
+    },
+
+    "currency": {
+      "description": "Currency of fare amount.",
+      "allowed_values": ["USD", "UNKNOWN"],
+      "applies_to": ["fare_amount"]
+    },
+
+    "is_round_trip": {
+      "description": "Indicates whether the query describes a round-trip journey.",
+      "allowed_values": ["true", "false"],
+      "scope": "utterance_level"
+    }
+  },
+
+  "relations": {
+    "route_from": {
+      "description": "Connects origin city or airport to destination.",
+      "source": ["from_city", "from_airport"],
+      "target": ["to_city", "to_airport"]
+    },
+    "route_to": {
+      "description": "Reverse directional relation for clarity in complex routes.",
+      "source": ["to_city", "to_airport"],
+      "target": ["from_city", "from_airport"]
+    },
+    "scheduled_on": {
+      "description": "Associates a flight with a calendar date.",
+      "source": ["flight_number", "from_city"],
+      "target": ["departure_date", "day_of_week"]
+    },
+    "scheduled_at": {
+      "description": "Associates a flight with a specific time.",
+      "source": ["flight_number", "from_city"],
+      "target": ["departure_time", "arrival_time"]
+    },
+    "priced_at": {
+      "description": "Associates a flight with a fare amount.",
+      "source": ["flight_number"],
+      "target": ["fare_amount"]
+    },
+    "operated_by": {
+      "description": "Associates a flight with an airline.",
+      "source": ["flight_number"],
+      "target": ["airline_name"]
+    }
+  },
+
+  "constraints": {
+    "intent": {
+      "max_per_utterance": 1
+    },
+    "entities": {
+      "overlap": "not_allowed_except_temporal",
+      "required_pairs": [
+        {
+          "if_present": "fare_amount",
+          "must_have": "currency"
+        }
+      ]
+    },
+    "round_trip": {
+      "if_is_round_trip_true": {
+        "required": ["departure_date", "return_date"]
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 # Part-of-Speech (POS) Tagging Annotation Project
+<img src="./assets/POS Tagging.gif" />
 
 ## Project Summary
 

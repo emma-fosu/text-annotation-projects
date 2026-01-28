@@ -39,7 +39,7 @@ Annotated customer product reviews from a retail store into sentiment categories
 - Product quality monitoring  
 - Review-based recommendation systems  
 
-🔗 **Project Link:** [Sentiment Classification Project](./Sentiment%20Classification/)
+🔗 **Project Link:** [Sentiment Classification Project](./Sentiment%20Classification/Store's%20Product%20Reviews/)
 
 ---
 
